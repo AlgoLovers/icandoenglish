@@ -762,7 +762,8 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 flipCard(cardView, isWord = true)
                 return true
             }
-            override fun onFling(e1: MotionEvent, e2: MotionEvent, velocityX: Float, velocityY: Float): Boolean {
+            override fun onFling(e1: MotionEvent?, e2: MotionEvent, velocityX: Float, velocityY: Float): Boolean {
+                if (e1 == null) return false
                 val diffX = e2.x - e1.x
                 if (Math.abs(diffX) > 100 && Math.abs(velocityX) > 100) {
                     if (diffX > 0) {
@@ -806,7 +807,8 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 flipCard(sentenceCard, isWord = false)
                 return true
             }
-            override fun onFling(e1: MotionEvent, e2: MotionEvent, velocityX: Float, velocityY: Float): Boolean {
+            override fun onFling(e1: MotionEvent?, e2: MotionEvent, velocityX: Float, velocityY: Float): Boolean {
+                if (e1 == null) return false
                 val diffX = e2.x - e1.x
                 if (Math.abs(diffX) > 100 && Math.abs(velocityX) > 100) {
                     val entry = words.getOrNull(currentIndex)
@@ -842,7 +844,8 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             moveToNextWord()
         }
         btnSettings.setOnClickListener {
-            startActivity(Intent(this, SettingsActivity::class.java))
+            // TODO: SettingsActivity 구현 후 활성화
+            // startActivity(Intent(this, SettingsActivity::class.java))
         }
         btnSentencePrev.setOnClickListener {
             val entry = words.getOrNull(currentIndex)
