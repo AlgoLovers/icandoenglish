@@ -1,9 +1,662 @@
 kor,eng,sentence1_kor,sentence1_eng,sentence2_kor,sentence2_eng,sentence3_kor,sentence3_eng
-철학,philosophy,철학을 공부해요.,I study philosophy.,철학 책을 읽었어요.,I read a philosophy book.,철학에 대해 토론했어요.,I discussed philosophy.
-경제,economy,경제를 배워요.,I learn about the economy.,경제 뉴스가 나왔어요.,There was economy news.,경제학자가 되고 싶어요.,I want to be an economist.
-정치,politics,정치에 관심이 있어요.,I am interested in politics.,정치 뉴스를 봤어요.,I watched political news.,정치에 대해 토론했어요.,I discussed politics.
-심리학,psychology,심리학을 공부해요.,I study psychology.,심리학 책을 샀어요.,I bought a psychology book.,심리학자가 되고 싶어요.,I want to be a psychologist.
-생물학,biology,생물학 수업이 있어요.,I have a biology class.,생물학을 공부해요.,I study biology.,생물학 책을 읽었어요.,I read a biology book.
-물리학,physics,물리학 문제를 풀었어요.,I solved a physics problem.,물리학을 배워요.,I learn physics.,물리학 수업이 재미있어요.,Physics class is fun.
-화학,chemistry,화학 실험을 했어요.,I did a chemistry experiment.,화학을 공부해요.,I study chemistry.,화학 수업이 있어요.,I have a chemistry class.
-통계학,statistics,통계학을 배워요.,I learn statistics.,통계 자료를 봤어요.,I looked at statistical data.,통계학자가 되고 싶어요.,I want to be a statistician. 
+환경,environment,환경을 사랑해요.,I love the environment.,우리는 깨끗한 환경에서 살고 싶어요.,We want to live in a clean environment.,기업들은 지속 가능한 미래를 위해 환경 보호에 적극적으로 기여해야 합니다.,Businesses must actively contribute to environmental protection for a sustainable future.
+회사,company,저는 회사에 가요.,I go to the company.,그는 큰 IT 회사에서 일해요.,He works at a big IT company.,혁신적인 기술 스타트업은 빠르게 성장하는 글로벌 회사로 변모했습니다.,The innovative tech startup transformed into a rapidly growing global company.
+정부,government,정부가 규칙을 만들어요.,The government makes rules.,정부는 국민의 복지를 위해 노력해야 해요.,The government should work for the welfare of its people.,새로운 정부는 경제 성장과 사회 개혁을 목표로 하는 정책을 발표했습니다.,The new government announced policies aimed at economic growth and social reform.
+얼굴,face,그녀의 얼굴이 예뻐요.,Her face is pretty.,그는 어려운 문제에 직면했어요.,He faced a difficult problem.,불확실한 미래에 직면하여, 우리는 변화에 적응할 준비가 되어 있어야 합니다.,When faced with an uncertain future, we must be prepared to adapt to change.
+경주,race,달리기 경주를 했어요.,I had a running race.,그는 인종 차별에 반대하는 목소리를 냈어요.,He spoke out against racial discrimination.,인류는 인종, 문화, 신념의 다양성에도 불구하고 공통된 인간성을 공유합니다.,Humanity shares a common humanity despite the diversity of races, cultures, and beliefs.
+식물,plant,화분에 식물을 심었어요.,I planted a plant in the pot.,식물은 햇빛으로 자라요.,Plants grow with sunlight.,이 지역의 토종 식물은 생태계의 균형을 유지하는 데 필수적입니다.,The native plants in this region are essential for maintaining the ecological balance.
+화재,fire,불이 났어요.,There was a fire.,소방관이 불을 껐어요.,The firefighter put out the fire.,그들은 새로운 로켓을 발사하기 위해 모든 준비를 마쳤습니다.,They completed all preparations to fire the new rocket.
+문제,matter,이것은 중요한 문제예요.,This is an important matter.,무슨 일이야?,What's the matter?,그녀의 결정은 우리 모두에게 중요한 영향을 미쳤습니다.,Her decision mattered significantly to all of us.
+상태,state,그는 좋은 상태예요.,He is in a good state.,그 나라는 평화로운 상태를 유지하고 있어요.,The state is maintaining a peaceful condition.,대통령은 국가의 경제 상황에 대해 연설했습니다.,The president delivered a speech about the state of the nation's economy.
+원인,cause,사고의 원인은 무엇인가요?,What is the cause of the accident?,그의 행동이 문제를 야기했어요.,His actions caused the problem.,기후 변화의 근본 원인을 해결하는 것이 시급합니다.,It is urgent to address the root causes of climate change.
+이유,reason,이유를 말해주세요.,Please tell me the reason.,그는 합리적인 이유로 결정을 내렸어요.,He made a decision for a reasonable reason.,인간의 이성은 복잡한 문제를 해결하고 새로운 지식을 탐구하는 데 필수적입니다.,Human reason is essential for solving complex problems and exploring new knowledge.
+걱정,concern,저는 당신이 걱정돼요.,I am concerned about you.,이 문제는 모두에게 관련이 있어요.,This issue concerns everyone.,환경 보호는 전 세계 시민들의 주요 관심사입니다.,Environmental protection is a major concern for citizens worldwide.
+곰,bear,곰은 숲에 살아요.,Bears live in the forest.,이 고통을 참을 수 없어요.,I can't bear this pain.,그녀는 엄청난 압력에도 불구하고 침착함을 유지했습니다.,She bore her composure despite immense pressure.
+들어올리다,raise,손을 들어 올리세요.,Raise your hand.,그들은 자선 기금을 모금했어요.,They raised funds for charity.,그녀는 어려운 환경에서 자랐지만, 훌륭한 사람으로 성장했습니다.,She was raised in a difficult environment but grew into an excellent person.
+주제,subject,오늘의 주제는 무엇인가요?,What is today's subject?,그는 역사 과목을 좋아해요.,He likes the subject of history.,그들은 논쟁의 여지가 있는 주제에 대해 열띤 토론을 벌였습니다.,They engaged in a heated debate on a controversial subject.
+행성,planet,지구는 행성이에요.,Earth is a planet.,우리는 다른 행성에 생명체가 있는지 궁금해해요.,We wonder if there is life on other planets.,과학자들은 외계 행성에서 생명체의 흔적을 찾기 위해 노력하고 있습니다.,Scientists are striving to find signs of life on exoplanets.
+기사,article,신문 기사를 읽었어요.,I read a newspaper article.,이 물품은 판매 중이에요.,This article is for sale.,그녀는 국제법에 관한 학술지에 중요한 논문을 게재했습니다.,She published an important article in a journal on international law.
+교육,education,교육은 중요해요.,Education is important.,좋은 교육은 더 나은 미래를 만들어요.,Good education creates a better future.,모든 개인은 양질의 교육을 받을 동등한 기회를 가져야 합니다.,Every individual should have an equal opportunity to receive quality education.
+목적,purpose,제 목적은 배우는 거예요.,My purpose is to learn.,그는 분명한 목적을 가지고 일했어요.,He worked with a clear purpose.,인생의 목적을 찾는 것은 많은 사람들에게 중요한 여정입니다.,Finding the purpose of life is an important journey for many people.
+무기,arm,그는 무기를 들고 있었어요.,He was carrying a weapon.,군인들이 무장했어요.,The soldiers were armed.,그녀는 아이를 팔에 안고 부드럽게 흔들었습니다.,She held the child in her arms and gently rocked it.
+물체,object,이상한 물체를 봤어요.,I saw a strange object.,그는 그 계획에 반대했어요.,He objected to the plan.,그들은 미지의 비행 물체를 관찰했습니다.,They observed an unidentified flying object.
+양,amount,많은 양의 물이 있어요.,There is a large amount of water.,그는 돈을 많이 벌었어요.,He earned a large amount of money.,이 프로젝트에 필요한 자금의 총액은 상당합니다.,The total amount of funding required for this project is substantial.
+나머지,rest,나머지 음식을 먹었어요.,I ate the rest of the food.,잠시 쉬었어요.,I rested for a while.,힘든 하루를 보낸 후에는 충분한 휴식이 필수적입니다.,After a long day, sufficient rest is essential.
+과정,process,이것은 긴 과정이에요.,This is a long process.,데이터를 처리해야 해요.,We need to process the data.,생명체는 복잡한 생물학적 과정을 통해 진화했습니다.,Living organisms have evolved through complex biological processes.
+연구,research,연구를 하고 있어요.,I am doing research.,새로운 약을 연구하고 있어요.,They are researching a new medicine.,그는 암 치료법을 찾기 위해 평생을 연구에 바쳤습니다.,He dedicated his life to research in search of a cure for cancer.
+존경,respect,그를 존경해요.,I respect him.,모든 사람을 존경해야 해요.,You should respect everyone.,그녀는 모든 면에서 존경받는 학자입니다.,She is a respected scholar in every respect.
+영향,influence,그녀는 저에게 좋은 영향을 줬어요.,She had a good influence on me.,그의 말은 저에게 영향을 미쳤어요.,His words influenced me.,소셜 미디어는 현대 사회에 막대한 영향을 미치고 있습니다.,Social media exerts a tremendous influence on modern society.
+거래,deal,좋은 거래를 했어요.,I got a good deal.,이 문제를 처리해야 해요.,We need to deal with this problem.,그들은 복잡한 국제 무역 협상을 성공적으로 처리했습니다.,They successfully dealt with complex international trade negotiations.
+알아차리다,notice,그는 저를 알아차리지 못했어요.,He didn't notice me.,공고를 붙였어요.,They put up a notice.,그녀의 미묘한 변화를 알아차리는 사람은 거의 없었습니다.,Few people noticed her subtle change.
+지지,support,저는 당신을 지지해요.,I support you.,그녀는 가족을 부양해요.,She supports her family.,정부의 재정적 지원은 중소기업의 성장에 필수적입니다.,Financial support from the government is essential for the growth of small businesses.
+세대,generation,우리 세대는 달라요.,Our generation is different.,새로운 세대가 오고 있어요.,A new generation is coming.,이 기술 혁신은 다음 세대에 큰 영향을 미칠 것입니다.,This technological innovation will greatly impact the next generation.
+인구,population,이 도시의 인구가 많아요.,This city has a large population.,세계 인구가 증가하고 있어요.,The world population is increasing.,급격한 인구 증가는 자원 부족과 환경 문제를 야기할 수 있습니다.,Rapid population growth can lead to resource scarcity and environmental problems.
+산업,industry,자동차 산업은 커요.,The automobile industry is big.,그는 산업 분야에서 일해요.,He works in the industry.,4차 산업혁명은 사회 전반에 걸쳐 혁신을 가져오고 있습니다.,The Fourth Industrial Revolution is bringing innovation across all sectors of society.
+경력,career,그녀는 성공적인 경력을 가지고 있어요.,She has a successful career.,어떤 직업을 선택할 건가요?,What career will you choose?,그는 자신의 경력 내내 윤리적 기준을 일관되게 유지했습니다.,He consistently maintained ethical standards throughout his career.
+기회,opportunity,기회를 잡으세요.,Seize the opportunity.,좋은 기회가 왔어요.,A good opportunity came.,모든 시민은 성공을 위한 동등한 기회를 가져야 합니다.,All citizens should have equal opportunities for success.
+태도,behavior,그의 태도가 좋아요.,His behavior is good.,아이들은 부모의 태도를 배워요.,Children learn their parents' behavior.,그녀의 차분한 태도는 위기 상황에서도 빛을 발했습니다.,Her calm behavior shone even in a crisis.
+현실,reality,이것은 현실이에요.,This is reality.,현실을 직시해야 해요.,We must face reality.,가상 현실 기술은 엔터테인먼트 산업의 경계를 허물고 있습니다.,Virtual reality technology is blurring the boundaries of the entertainment industry.
+눈물,tear,그녀는 눈물을 흘렸어요.,She shed tears.,종이를 찢었어요.,I tore the paper.,그녀의 눈물은 깊은 슬픔을 나타냈습니다.,Her tears indicated deep sorrow.
+문제,issue,이것은 중요한 문제예요.,This is an important issue.,잡지를 발행했어요.,They issued a magazine.,정부는 인플레이션 문제를 해결하기 위한 새로운 정책을 발표했습니다.,The government announced new policies to address the issue of inflation.
+세부사항,detail,세부사항을 알려주세요.,Please tell me the details.,그는 자세히 설명했어요.,He detailed the explanation.,그 보고서는 프로젝트의 모든 세부 사항을 자세히 설명했습니다.,The report detailed every aspect of the project.
+한계,limit,한계에 도달했어요.,I reached my limit.,속도를 제한해야 해요.,We need to limit the speed.,인간의 상상력에는 한계가 없습니다.,There is no limit to human imagination.
+도전,challenge,도전할 준비가 됐어요.,I am ready for the challenge.,그는 저에게 도전했어요.,He challenged me.,그녀는 어려운 도전을 받아들이고 성공적으로 완수했습니다.,She accepted a difficult challenge and completed it successfully.
+진보,advance,과학은 진보하고 있어요.,Science is advancing.,앞으로 나아가세요.,Advance forward.,기술의 급속한 진보는 사회에 혁명적인 변화를 가져왔습니다.,Rapid technological advances have brought revolutionary changes to society.
+이익,benefit,이것은 당신에게 이익이 될 거예요.,This will benefit you.,운동은 건강에 이롭습니다.,Exercise benefits your health.,그녀는 공동체의 이익을 위해 헌신적으로 일했습니다.,She worked selflessly for the benefit of the community.
+치료,cure,병을 치료했어요.,I cured the disease.,이 약은 감기를 치료할 수 있어요.,This medicine can cure a cold.,아직 암에 대한 완전한 치료법은 발견되지 않았습니다.,A complete cure for cancer has not yet been discovered.
+전문가,expert,그는 컴퓨터 전문가예요.,He is a computer expert.,전문가의 조언을 들었어요.,I got advice from an expert.,그는 이 분야에서 인정받는 전문가로, 그의 의견은 항상 존중됩니다.,He is a recognized expert in this field, and his opinions are always respected.
+종,species,새로운 종을 발견했어요.,I discovered a new species.,이 동물은 희귀종이에요.,This animal is a rare species.,많은 동식물 종들이 기후 변화로 인해 멸종 위기에 처해 있습니다.,Many animal and plant species are endangered due to climate change.
+외모,appearance,그녀의 외모가 바뀌었어요.,Her appearance changed.,그는 갑자기 나타났어요.,He made a sudden appearance.,그의 갑작스러운 출현은 모든 사람을 놀라게 했습니다.,His sudden appearance surprised everyone.
+성격,character,그는 좋은 성격을 가지고 있어요.,He has a good character.,이 책의 주인공은 누구인가요?,Who is the main character in this book?,그녀는 강한 의지와 뛰어난 지성을 가진 인물입니다.,She is a character of strong will and brilliant intellect.
+자질,quality,이 제품은 품질이 좋아요.,This product has good quality.,그는 리더의 자질을 가지고 있어요.,He has the qualities of a leader.,이 와인은 뛰어난 품질과 풍부한 맛을 자랑합니다.,This wine boasts excellent quality and a rich flavor.
+자원,resource,자원을 아껴 써야 해요.,We should save resources.,자연 자원은 소중해요.,Natural resources are precious.,재활용은 지구의 귀중한 자원을 보존하는 데 도움이 됩니다.,Recycling helps conserve the Earth's valuable resources.
+방법,method,새로운 방법을 찾았어요.,I found a new method.,효과적인 학습 방법이 필요해요.,We need an effective learning method.,과학자들은 새로운 연구 방법을 개발하기 위해 끊임없이 노력합니다.,Scientists constantly strive to develop new research methods.
+이동,movement,움직임이 빨라요.,The movement is fast.,그는 팔을 움직였어요.,He made a movement with his arm.,시민 운동은 사회 변화를 이끌어냈습니다.,The civil rights movement brought about social change.
+예,instance,예를 들어보세요.,Give me an instance.,이 경우에 해당해요.,It applies in this instance.,이러한 상황에서는 즉각적인 조치가 필요합니다.,In this instance, immediate action is required.
+성냥,match,성냥으로 불을 붙였어요.,I lit a fire with a match.,경기를 시작했어요.,The match started.,그녀는 그의 지성에 완벽하게 어울리는 상대였습니다.,She was a perfect match for his intellect.
+치수,figure,그림을 그렸어요.,I drew a figure.,그녀의 치수는 작아요.,Her figure is small.,그는 그 문제를 이해하기 어려웠어요.,He found it difficult to figure out the problem.
+막대기,stick,막대기를 주웠어요.,I picked up a stick.,나뭇가지에 붙였어요.,I stuck it to the branch.,접착 테이프는 두 표면을 함께 붙이는 데 사용됩니다.,Adhesive tape is used to stick two surfaces together.
+이기다,beat,그는 저를 이겼어요.,He beat me.,심장이 고동쳤어요.,My heart beat fast.,그는 드럼을 치는 데 능숙해요.,He is good at beating the drums.
+접근,approach,문제에 접근하는 방법이 달라요.,My approach to the problem is different.,그에게 접근했어요.,I approached him.,그녀는 새로운 도전에 대해 신중한 접근 방식을 취했습니다.,She took a cautious approach to the new challenge.
+자유,Freedom,자유를 원해요.,I want freedom.,새는 자유롭게 날아요.,The bird flies freely.,언론의 자유는 민주주의 사회의 기본 원칙입니다.,Freedom of the press is a fundamental principle of a democratic society.
+전통,tradition,이것은 우리의 전통이에요.,This is our tradition.,오래된 전통을 지켜요.,We keep old traditions.,그 마을은 수세기 동안 이어져 온 독특한 전통을 가지고 있습니다.,The village has unique traditions that have been passed down for centuries.
+모험,adventure,모험을 떠났어요.,I went on an adventure.,새로운 모험을 찾고 있어요.,I am looking for a new adventure.,그들은 미지의 땅을 탐험하는 위험한 모험을 시작했습니다.,They embarked on a perilous adventure to explore unknown lands.
+범죄,crime,범죄를 저질렀어요.,He committed a crime.,범죄율이 낮아졌어요.,The crime rate decreased.,조직 범죄는 사회에 심각한 위협이 됩니다.,Organized crime poses a serious threat to society.
+면,aspect,모든 면을 고려해야 해요.,We need to consider all aspects.,그는 문제의 다른 면을 봤어요.,He saw another aspect of the problem.,이 프로젝트의 가장 중요한 측면은 팀워크입니다.,The most crucial aspect of this project is teamwork.
+해결,solution,해결책을 찾았어요.,I found a solution.,문제 해결이 필요해요.,We need to find a solution to the problem.,그녀는 복잡한 수학 문제에 대한 혁신적인 해결책을 제시했습니다.,She presented an innovative solution to a complex mathematical problem.
+계산,account,계산이 틀렸어요.,The account is wrong.,그는 사고에 대해 설명했어요.,He accounted for the accident.,그녀는 회사의 재무 기록을 정확하게 관리했습니다.,She managed the company's financial accounts accurately.
+막다,block,길을 막았어요.,I blocked the road.,아파트 한 구획에 살아요.,I live in an apartment block.,건설 현장에서 도로를 막아 교통 체증을 유발했습니다.,The construction site blocked the road, causing traffic congestion.
+범위,range,범위가 넓어요.,The range is wide.,그의 목소리는 넓은 음역에 걸쳐져요.,His voice ranges over a wide scale.,그 연구는 다양한 연령대의 참가자들을 포함했습니다.,The study included participants from a wide range of ages.
+손해,damage,차에 손해가 났어요.,The car was damaged.,그는 제 명예를 손상시켰어요.,He damaged my reputation.,홍수는 도시에 막대한 피해를 입혔습니다.,The flood caused extensive damage to the city.
+공급,supply,식량을 공급했어요.,I supplied food.,물 공급이 부족해요.,The water supply is low.,전력 공급이 중단되어 도시 전체가 암흑에 잠겼습니다.,The power supply was cut off, plunging the entire city into darkness.
+요구,demand,요구 사항이 많아요.,There are many demands.,그는 설명을 요구했어요.,He demanded an explanation.,소비자들의 친환경 제품에 대한 수요가 증가하고 있습니다.,Consumer demand for eco-friendly products is increasing.
+거짓말하다,lie,그는 거짓말했어요.,He lied.,침대에 누웠어요.,I lay on the bed.,그녀는 아무리 힘들어도 진실을 말하는 것을 선호했습니다.,She preferred to tell the truth, no matter how difficult it was.
+확산,spread,소문이 퍼졌어요.,The rumor spread.,빵에 버터를 발랐어요.,I spread butter on the bread.,질병의 확산을 막기 위해 즉각적인 조치가 필요합니다.,Immediate action is needed to stop the spread of the disease.
+먹이다,feed,아기에게 밥을 먹였어요.,I fed the baby.,동물에게 먹이를 줬어요.,I fed the animal.,그녀는 지역 노숙자 보호소에서 자원봉사하며 사람들에게 식사를 제공합니다.,She volunteers at a local homeless shelter, feeding people.
+젊음,youth,젊음은 아름다워요.,Youth is beautiful.,그는 젊은 시절에 많은 것을 배웠어요.,He learned a lot in his youth.,그녀는 젊은이들에게 영감을 주는 훌륭한 멘토입니다.,She is an excellent mentor who inspires the youth.
+흙,soil,흙이 촉촉해요.,The soil is moist.,식물을 흙에 심었어요.,I planted the plant in the soil.,이 비옥한 토양은 농작물 재배에 이상적입니다.,This fertile soil is ideal for growing crops.
+설비,equipment,새로운 설비를 설치했어요.,I installed new equipment.,캠핑 장비가 필요해요.,I need camping equipment.,이 실험실은 최첨단 과학 장비를 갖추고 있습니다.,The laboratory is equipped with state-of-the-art scientific equipment.
+용어,term,전문 용어를 사용했어요.,I used a technical term.,계약 기간이 끝났어요.,The term of the contract ended.,그는 어려운 개념을 간단한 용어로 설명했습니다.,He explained the complex concept in simple terms.
+유리한점,advantage,그는 유리한 점이 많아요.,He has many advantages.,이것은 우리에게 유리해요.,This is an advantage for us.,그녀는 경쟁에서 유리한 위치를 차지하기 위해 끊임없이 노력했습니다.,She constantly strived to gain an advantage in the competition.
+판,board,칠판에 썼어요.,I wrote on the board.,비행기에 탔어요.,I boarded the plane.,이사회는 회사의 미래 전략에 대해 논의했습니다.,The board discussed the company's future strategy.
+연료,fuel,연료가 떨어졌어요.,We ran out of fuel.,자동차에 연료를 넣었어요.,I fueled the car.,재생 에너지는 미래의 주요 연료원이 될 것입니다.,Renewable energy will be the primary fuel source of the future.
+농담,chat,친구와 농담했어요.,I chatted with my friend.,재미있는 농담을 했어요.,I had a funny chat.,그들은 커피를 마시며 캐주얼한 대화를 나누었습니다.,They had a casual chat over coffee.
+속임수,trick,속임수를 썼어요.,He used a trick.,저를 속이려고 했어요.,He tried to trick me.,그 마술사는 관객들을 놀라게 하는 놀라운 마술을 보여주었습니다.,The magician performed an amazing trick that astonished the audience.
+공격,attack,적을 공격했어요.,I attacked the enemy.,갑작스러운 공격을 받았어요.,We suffered a sudden attack.,그들은 사이버 공격으로부터 시스템을 방어하기 위한 새로운 전략을 개발했습니다.,They developed a new strategy to defend their systems from cyber attacks.
+시도,attempt,시도해 봤어요.,I made an attempt.,문제를 해결하려고 시도했어요.,I attempted to solve the problem.,그녀의 첫 번째 시도는 실패했지만, 그녀는 포기하지 않았습니다.,Her first attempt failed, but she did not give up.
+교환,exchange,선물을 교환했어요.,We exchanged gifts.,정보를 주고받았어요.,We exchanged information.,학생들은 해외 교환 프로그램을 통해 다른 문화를 경험했습니다.,Students experienced different cultures through an international exchange program.
+얻다,gain,지식을 얻었어요.,I gained knowledge.,이익을 얻었어요.,I gained profit.,그녀는 꾸준한 노력으로 상당한 경험을 얻었습니다.,She gained significant experience through consistent effort.
+존재하다,exist,유령은 존재하지 않아요.,Ghosts don't exist.,이 세상에 평화가 존재해요.,Peace exists in this world.,고대 문명은 수천 년 전에 존재했습니다.,Ancient civilizations existed thousands of years ago.
+유기체,organism,단세포 유기체를 봤어요.,I saw a single-celled organism.,모든 생물은 유기체예요.,All living things are organisms.,박테리아는 지구상에서 가장 작은 유기체 중 하나입니다.,Bacteria are among the smallest organisms on Earth.
+감정,emotion,감정을 표현했어요.,I expressed my emotions.,그녀는 강한 감정을 느꼈어요.,She felt strong emotions.,음악은 인간의 다양한 감정을 표현하는 강력한 수단입니다.,Music is a powerful means of expressing various human emotions.
+믿음,belief,믿음이 중요해요.,Belief is important.,그는 확고한 신념을 가지고 있어요.,He has a strong belief.,그들의 종교적 신념은 그들의 삶의 모든 측면에 영향을 미쳤습니다.,Their religious beliefs influenced every aspect of their lives.
+경제,economy,경제는 성장하고 있어요.,The economy is growing.,절약하는 습관을 들여야 해요.,You should develop a habit of economy.,세계 경제는 현재 여러 가지 복잡한 문제에 직면해 있습니다.,The global economy is currently facing several complex challenges.
+발견,discovery,새로운 발견을 했어요.,I made a new discovery.,과학적인 발견이 중요해요.,Scientific discovery is important.,그들의 탐험은 고대 도시의 놀라운 발견으로 이어졌습니다.,Their expedition led to the astonishing discovery of an ancient city.
+비율,rate,성장률이 높아요.,The growth rate is high.,속도를 줄이세요.,Slow down your rate.,실업률은 지난 분기에 크게 감소했습니다.,The unemployment rate significantly decreased last quarter.
+정장,suit,정장을 입었어요.,I wore a suit.,이 색깔은 당신에게 잘 어울려요.,This color suits you well.,그녀는 중요한 회의에 참석하기 위해 정장을 입었습니다.,She wore a business suit to attend an important meeting.
+법정,court,법정에 갔어요.,I went to court.,테니스 경기장에서 놀았어요.,I played on the tennis court.,대법원은 중요한 법적 판결을 내렸습니다.,The Supreme Court made an important legal ruling.
+압력,pressure,압력을 받았어요.,I felt pressure.,수압이 강해요.,The water pressure is strong.,그는 시험에 대한 엄청난 압력을 느끼고 있었습니다.,He was feeling immense pressure about the exam.
+위험,risk,위험을 감수했어요.,I took a risk.,위험한 상황이었어요.,It was a risky situation.,그들은 새로운 사업을 시작하면서 큰 위험을 감수했습니다.,They took a big risk by starting a new business.
+진보,progress,진보가 있었어요.,There was progress.,앞으로 나아가세요.,Make progress.,기술의 진보는 인류의 삶을 변화시켰습니다.,Technological progress has transformed human life.
+도망,escape,감옥에서 도망쳤어요.,He escaped from prison.,위험에서 벗어났어요.,I escaped from danger.,그는 위험한 상황에서 기적적으로 탈출했습니다.,He miraculously escaped from a dangerous situation.
+재다,measure,길이를 쟀어요.,I measured the length.,조치를 취했어요.,I took measures.,정부는 인플레이션을 억제하기 위한 새로운 조치를 발표했습니다.,The government announced new measures to curb inflation.
+감소,decrease,온도가 감소했어요.,The temperature decreased.,인구가 감소하고 있어요.,The population is decreasing.,오염 수준의 지속적인 감소는 환경 개선을 나타냅니다.,A continuous decrease in pollution levels indicates environmental improvement.
+추구하다,seek,행복을 추구해요.,I seek happiness.,잃어버린 열쇠를 찾고 있어요.,I am seeking my lost keys.,그녀는 항상 새로운 지식을 추구하고 배우는 것을 좋아합니다.,She always seeks new knowledge and loves to learn.
+인류,humanity,인류의 미래는 밝아요.,The future of humanity is bright.,인간성을 보여주세요.,Show your humanity.,인류는 기후 변화와 같은 전 지구적 도전에 직면해 있습니다.,Humanity is facing global challenges such as climate change.
+적,enemy,적을 물리쳤어요.,I defeated the enemy.,그는 저의 적이 아니에요.,He is not my enemy.,그들은 공동의 적에 맞서기 위해 동맹을 맺었습니다.,They formed an alliance to confront a common enemy.
+곡물,grain,곡물을 수확했어요.,I harvested grain.,쌀은 중요한 곡물이에요.,Rice is an important grain.,고대 문명은 곡물 재배를 통해 발전했습니다.,Ancient civilizations developed through grain cultivation.
+표면,surface,표면이 매끄러워요.,The surface is smooth.,물 위로 떠올랐어요.,I surfaced above the water.,지구의 표면은 다양한 지형으로 이루어져 있습니다.,The Earth's surface is composed of various landforms.
+병,sickness,병에 걸렸어요.,I got a sickness.,심한 병이었어요.,It was a severe sickness.,그녀는 오랫동안 앓던 병에서 회복되었습니다.,She recovered from a long-term sickness.
+가능성,possibility,가능성이 있어요.,There is a possibility.,모든 가능성을 열어두세요.,Keep all possibilities open.,그녀는 성공할 가능성이 높다고 믿었습니다.,She believed there was a high possibility of success.
+위기,crisis,위기에 처했어요.,We are in a crisis.,경제 위기가 왔어요.,An economic crisis came.,전 세계는 현재 기후 위기에 직면해 있습니다.,The entire world is currently facing a climate crisis.
+전략,strategy,새로운 전략을 세웠어요.,I made a new strategy.,승리 전략이 필요해요.,We need a winning strategy.,그 회사는 시장 점유율을 높이기 위한 새로운 마케팅 전략을 개발했습니다.,The company developed a new marketing strategy to increase its market share.
+관습,custom,이것은 우리 지역의 관습이에요.,This is a custom of our region.,오래된 관습을 따랐어요.,I followed an old custom.,그 마을은 수세기 동안 이어져 온 독특한 관습을 가지고 있습니다.,The village has unique customs that have been passed down for centuries.
+기원,origin,이 단어의 기원은 무엇인가요?,What is the origin of this word?,그는 한국 출신이에요.,He is of Korean origin.,그 이론의 기원은 고대 철학으로 거슬러 올라갑니다.,The origin of the theory dates back to ancient philosophy.
+도입,introduction,책의 도입부를 읽었어요.,I read the introduction of the book.,새로운 시스템을 도입했어요.,We introduced a new system.,그녀의 강렬한 도입은 청중의 즉각적인 관심을 사로잡았습니다.,Her powerful introduction immediately captivated the audience's attention.
+신뢰,trust,그를 신뢰해요.,I trust him.,신뢰를 쌓는 데 시간이 걸려요.,It takes time to build trust.,상호 신뢰는 모든 성공적인 관계의 기초입니다.,Mutual trust is the foundation of any successful relationship.
+신용,credit,신용 카드를 사용했어요.,I used a credit card.,그의 말을 믿어요.,I credit his words.,그녀는 프로젝트의 성공에 대한 모든 공로를 팀원들에게 돌렸습니다.,She gave all the credit for the project's success to her team members.
+언급,mention,그는 제 이름을 언급했어요.,He mentioned my name.,그는 아무 말도 언급하지 않았어요.,He didn't mention anything.,그녀는 연설에서 중요한 점을 언급했습니다.,She made an important mention in her speech.
+다루다,handle,문제를 다루기 어려워요.,It's hard to handle the problem.,손잡이를 잡으세요.,Hold the handle.,그는 스트레스가 많은 상황을 침착하게 처리하는 능력이 뛰어납니다.,He has an excellent ability to handle stressful situations calmly.
+요소,element,이것은 중요한 요소예요.,This is an important element.,물은 수소와 산소로 이루어져 있어요.,Water is made of hydrogen and oxygen elements.,팀워크는 성공적인 프로젝트의 핵심 요소입니다.,Teamwork is a crucial element of a successful project.
+오락,entertainment,오락을 즐겼어요.,I enjoyed entertainment.,그들은 저에게 대접했어요.,They entertained me.,온라인 스트리밍 서비스는 현대인의 주요 오락 형태가 되었습니다.,Online streaming services have become a primary form of entertainment for modern people.
+상상,imagination,상상력이 풍부해요.,She has a rich imagination.,상상해보세요.,Imagine it.,어린이들은 종종 풍부한 상상력을 통해 새로운 세계를 창조합니다.,Children often create new worlds through their rich imagination.
+실패,failure,실패는 성공의 어머니예요.,Failure is the mother of success.,그는 시험에 실패했어요.,He failed the exam.,그녀는 실패를 두려워하지 않고 새로운 도전을 받아들였습니다.,She was not afraid of failure and accepted new challenges.
+광산,mine,광산에서 일했어요.,I worked in a mine.,석탄을 채굴했어요.,I mined coal.,이 광산은 수십 년 동안 지역 경제의 중요한 부분이었습니다.,This mine has been a vital part of the local economy for decades.
+수출,export,자동차를 수출했어요.,I exported cars.,수출량이 증가했어요.,Exports increased.,그 나라는 농산물 수출에 크게 의존합니다.,The country heavily relies on the export of agricultural products.
+상,award,상을 받았어요.,I received an award.,그는 상을 수여했어요.,He awarded a prize.,그녀는 뛰어난 학업 성취로 장학금을 받았습니다.,She received an award for her outstanding academic achievement.
+전투,battle,전투에서 이겼어요.,We won the battle.,그들은 다투었어요.,They battled.,그들은 공동의 목표를 위해 힘든 싸움을 벌였습니다.,They fought a tough battle for a common goal.
+훈련,discipline,훈련을 받았어요.,I received discipline.,아이들을 훈련시켜야 해요.,You need to discipline your children.,자기 훈련은 목표 달성에 필수적입니다.,Self-discipline is essential for achieving goals.
+종류,sort,어떤 종류의 음악을 좋아하세요?,What sort of music do you like?,물건을 분류했어요.,I sorted the items.,그녀는 모든 것을 종류별로 정리하는 것을 좋아합니다.,She likes to sort everything by type.
+특징,feature,이것은 이 제품의 특징이에요.,This is a feature of this product.,그는 중요한 역할을 했어요.,He featured prominently.,이 소프트웨어의 새로운 기능은 사용자 경험을 크게 향상시킵니다.,The new feature of this software significantly enhances the user experience.
+부족,lack,돈이 부족해요.,I lack money.,식량 부족이 심각해요.,There is a severe lack of food.,그는 자신감 부족으로 새로운 기회를 놓쳤습니다.,He missed out on new opportunities due to a lack of confidence.
+욕구,desire,성공에 대한 욕구가 강해요.,I have a strong desire for success.,여행을 바라요.,I desire to travel.,그녀는 지식에 대한 강한 열망을 가지고 있습니다.,She has a strong desire for knowledge.
+후회하다,regret,후회했어요.,I regretted it.,그는 자신의 결정을 후회했어요.,He regretted his decision.,그녀는 자신의 무례한 발언을 즉시 후회했습니다.,She immediately regretted her rude remark.
+얼리다,freeze,물이 얼었어요.,The water froze.,음식을 얼려야 해요.,You need to freeze the food.,기온이 영하로 떨어지자 호수가 얼어붙기 시작했습니다.,As the temperature dropped below zero, the lake began to freeze.
+지능,intelligence,지능이 높아요.,His intelligence is high.,그는 높은 지능을 가지고 있어요.,He has high intelligence.,인공 지능은 우리 삶의 많은 측면을 변화시키고 있습니다.,Artificial intelligence is transforming many aspects of our lives.
+곤충,insect,곤충을 잡았어요.,I caught an insect.,벌레는 곤충이에요.,A bug is an insect.,일부 곤충은 농작물에 해를 끼치지만, 다른 곤충은 수분에 중요합니다.,Some insects are harmful to crops, while others are important for pollination.
+자동차,automobile,자동차를 운전해요.,I drive an automobile.,새로운 자동차를 샀어요.,I bought a new automobile.,자동차 산업은 지난 세기 동안 크게 발전했습니다.,The automobile industry has advanced significantly over the past century.
+지역,region,이 지역은 아름다워요.,This region is beautiful.,넓은 지역을 여행했어요.,I traveled a wide region.,이 지역은 독특한 문화와 아름다운 자연경관으로 유명합니다.,This region is famous for its unique culture and beautiful natural landscapes.
+기후,climate,기후가 변하고 있어요.,The climate is changing.,온화한 기후를 좋아해요.,I like a mild climate.,기후 변화는 전 세계적으로 심각한 환경 문제를 야기하고 있습니다.,Climate change is causing serious environmental problems worldwide.
+보호,protection,환경 보호가 중요해요.,Environmental protection is important.,자신을 보호하세요.,Protect yourself.,정부는 시민의 안전을 위한 보호 조치를 강화했습니다.,The government strengthened protection measures for public safety.
+요인,factor,성공의 요인은 무엇인가요?,What is the factor of success?,여러 요인이 결과를 결정해요.,Several factors determine the outcome.,스트레스는 심장병의 주요 위험 요인 중 하나입니다.,Stress is one of the major risk factors for heart disease.
+원칙,principle,원칙을 지켜야 해요.,You should follow principles.,기본 원칙을 배웠어요.,I learned basic principles.,그녀는 자신의 도덕적 원칙에 따라 행동했습니다.,She acted according to her moral principles.
+이론,theory,새로운 이론을 발표했어요.,I published a new theory.,그의 이론은 논란의 여지가 있어요.,His theory is controversial.,상대성 이론은 현대 물리학의 기초입니다.,The theory of relativity is a cornerstone of modern physics.
+노동,labor,노동은 중요해요.,Labor is important.,노동자들이 파업했어요.,The laborers went on strike.,그는 노동 시장의 변화에 대해 연구했습니다.,He researched changes in the labor market.
+기능,function,이 기계는 기능을 잘 해요.,This machine functions well.,심장의 기능은 피를 펌프질하는 거예요.,The function of the heart is to pump blood.,이 소프트웨어의 새로운 기능은 사용자 경험을 크게 향상시킵니다.,The new function of this software significantly enhances the user experience.
+접근,access,도서관에 접근할 수 있어요.,I have access to the library.,정보에 접근했어요.,I accessed the information.,모든 시민은 기본적인 의료 서비스에 대한 동등한 접근권을 가져야 합니다.,All citizens should have equal access to basic healthcare services.
+놀라게하다,alarm,그 소리에 놀랐어요.,I was alarmed by the sound.,경보가 울렸어요.,The alarm rang.,그녀는 갑작스러운 소음에 놀랐습니다.,She was alarmed by the sudden noise.
+투쟁,struggle,그는 투쟁했어요.,He struggled.,삶은 투쟁이에요.,Life is a struggle.,그들은 자유를 위한 오랜 투쟁을 벌였습니다.,They waged a long struggle for freedom.
+증명하다,prove,그것을 증명할 수 있어요?,Can you prove it?,그는 자신의 주장을 증명했어요.,He proved his point.,그녀는 자신의 결백을 증명하기 위해 모든 노력을 다했습니다.,She did everything to prove her innocence.
+저자,author,이 책의 저자는 누구인가요?,Who is the author of this book?,그는 유명한 저자예요.,He is a famous author.,그녀는 베스트셀러 소설의 저자입니다.,She is the author of a bestselling novel.
+의뢰인,client,의뢰인을 만났어요.,I met a client.,그는 중요한 의뢰인을 가지고 있어요.,He has an important client.,변호사는 의뢰인의 이익을 보호하기 위해 최선을 다했습니다.,The lawyer did his best to protect his client's interests.
+희생자,victim,그는 사고의 희생자예요.,He is a victim of the accident.,희생자들이 많았어요.,There were many victims.,그녀는 범죄의 희생자들을 돕는 자선 단체에서 일합니다.,She works for a charity that helps victims of crime.
+재해,disaster,자연 재해가 발생했어요.,A natural disaster occurred.,큰 재앙이었어요.,It was a great disaster.,쓰나미는 해안 지역에 엄청난 재앙을 가져왔습니다.,The tsunami brought a terrible disaster to the coastal areas.
+근육,muscle,근육이 아파요.,My muscle hurts.,운동으로 근육을 키웠어요.,I built muscle through exercise.,규칙적인 운동은 강한 근육과 건강한 심장을 유지하는 데 도움이 됩니다.,Regular exercise helps maintain strong muscles and a healthy heart.
+악기,instrument,악기를 연주해요.,I play an instrument.,이것은 정밀 기구예요.,This is a precise instrument.,그는 다양한 악기를 연주하는 데 능숙합니다.,He is skilled at playing various musical instruments.
+조각품,sculpture,아름다운 조각품을 봤어요.,I saw a beautiful sculpture.,조각을 만들었어요.,I made a sculpture.,그 박물관에는 고대 조각품 컬렉션이 전시되어 있습니다.,The museum displays a collection of ancient sculptures.
+효과,impact,그것은 큰 영향을 미쳤어요.,It had a big impact.,환경에 영향을 미쳤어요.,It impacted the environment.,기후 변화는 전 세계에 심각한 영향을 미치고 있습니다.,Climate change is having a severe impact on the entire world.
+인기,popularity,그 가수는 인기가 많아요.,That singer has a lot of popularity.,그의 인기가 높아지고 있어요.,His popularity is increasing.,그녀의 새로운 책은 엄청난 인기를 얻었고 베스트셀러가 되었습니다.,Her new book gained immense popularity and became a bestseller.
+불가사의,mystery,그것은 불가사의예요.,It's a mystery.,미스터리 소설을 읽었어요.,I read a mystery novel.,그 고대 문명의 멸망은 여전히 풀리지 않는 미스터리입니다.,The collapse of that ancient civilization remains an unsolved mystery.
+장소,spot,좋은 장소를 찾았어요.,I found a good spot.,그는 저를 찾아냈어요.,He spotted me.,그녀는 군중 속에서 친구를 즉시 발견했습니다.,She immediately spotted her friend in the crowd.
+방송,broadcast,뉴스를 방송했어요.,They broadcast the news.,생방송이었어요.,It was a live broadcast.,그 라디오 방송국은 전 세계로 프로그램을 방송합니다.,The radio station broadcasts its programs worldwide.
+칭찬하다,praise,그를 칭찬했어요.,I praised him.,칭찬을 받았어요.,I received praise.,선생님은 학생들의 노력에 대해 아낌없이 칭찬했습니다.,The teacher praised the students generously for their efforts.
+연결하다,link,두 도시를 연결했어요.,I linked two cities.,연결이 끊겼어요.,The link was broken.,이 웹사이트는 다른 유용한 자료로 연결되는 링크를 제공합니다.,This website provides links to other useful resources.
+훔치다,steal,돈을 훔쳤어요.,He stole money.,그는 제 마음을 훔쳤어요.,He stole my heart.,도둑은 밤에 조용히 침입하여 귀중품을 훔쳤습니다.,The thief quietly broke in during the night and stole valuables.
+인류,mankind,인류의 역사를 배웠어요.,I learned the history of mankind.,인류는 진화하고 있어요.,Mankind is evolving.,인류의 미래는 우리가 현재 내리는 결정에 달려 있습니다.,The future of mankind depends on the decisions we make now.
+조상,ancestor,제 조상은 한국 사람이에요.,My ancestor is Korean.,우리의 조상은 용감했어요.,Our ancestors were brave.,그녀는 자신의 조상이 이 땅에 처음 정착한 사람들이라는 것을 자랑스러워했습니다.,She was proud that her ancestors were among the first settlers in this land.
+혀,tongue,혀가 아파요.,My tongue hurts.,그는 여러 언어를 구사해요.,He speaks many tongues.,그녀는 외국어를 배우는 데 능숙합니다.,She is skilled at learning foreign tongues.
+어휘,vocabulary,어휘를 늘리고 싶어요.,I want to increase my vocabulary.,새로운 어휘를 배웠어요.,I learned new vocabulary.,풍부한 어휘는 효과적인 의사소통에 필수적입니다.,A rich vocabulary is essential for effective communication.
+부분,section,책의 한 부분을 읽었어요.,I read a section of the book.,이 구역은 조용해요.,This section is quiet.,그는 보고서의 중요한 섹션을 담당했습니다.,He was responsible for a crucial section of the report.
+임무,mission,임무를 완수했어요.,I completed the mission.,비밀 임무였어요.,It was a secret mission.,우주 비행사들은 달에 착륙하는 임무를 성공적으로 수행했습니다.,The astronauts successfully carried out their mission to land on the moon.
+줄,row,줄을 섰어요.,I stood in a row.,배를 저었어요.,I rowed the boat.,그들은 극장의 맨 앞줄에 앉았습니다.,They sat in the front row of the theater.
+보상,reward,보상을 받았어요.,I received a reward.,그는 저에게 보상했어요.,He rewarded me.,그녀의 노력은 결국 큰 보상으로 돌아왔습니다.,Her hard work eventually brought great rewards.
+상처,wound,상처를 입었어요.,I got a wound.,상처가 깊었어요.,The wound was deep.,전쟁은 국가에 깊은 상처를 남겼습니다.,The war left deep wounds on the nation.
+조사,survey,설문 조사를 했어요.,I conducted a survey.,땅을 조사했어요.,I surveyed the land.,최근 여론 조사는 대중의 의견 변화를 보여줍니다.,A recent survey indicates a shift in public opinion.
+대조,contrast,두 그림을 대조했어요.,I contrasted the two pictures.,대조가 뚜렷해요.,The contrast is clear.,그녀의 밝은 성격은 그의 조용한 성격과 뚜렷한 대조를 이룹니다.,Her bright personality stands in stark contrast to his quiet nature.
+수행하다,conduct,실험을 수행했어요.,I conducted an experiment.,그의 행동은 훌륭했어요.,His conduct was excellent.,그들은 연구를 수행하기 위해 엄격한 윤리적 지침을 따랐습니다.,They followed strict ethical guidelines to conduct their research.
+잡아늘이다,stretch,팔을 뻗었어요.,I stretched my arm.,스트레칭을 했어요.,I did a stretch.,그녀는 유연성을 높이기 위해 매일 스트레칭을 합니다.,She stretches daily to improve her flexibility.
+풀어주다,release,새를 풀어줬어요.,I released the bird.,새로운 영화가 개봉했어요.,A new movie was released.,정부는 인질들을 석방하기 위한 협상을 시작했습니다.,The government initiated negotiations for the release of the hostages.
+구조,rescue,그를 구조했어요.,I rescued him.,구조대가 왔어요.,The rescue team arrived.,소방관들은 불타는 건물에서 사람들을 구조하기 위해 용감하게 싸웠습니다.,Firefighters bravely fought to rescue people from the burning building.
+중독자,addict,그는 게임 중독자예요.,He is a game addict.,마약에 중독되었어요.,He was addicted to drugs.,그는 마약 중독에서 벗어나기 위해 힘든 싸움을 벌였습니다.,He fought a hard battle to overcome his drug addiction.
+영혼,soul,영혼은 불멸이에요.,The soul is immortal.,그는 음악에 영혼을 담았어요.,He put his soul into the music.,음악은 종종 인간의 영혼을 깊이 울립니다.,Music often deeply resonates with the human soul.
+개성,personality,그녀는 독특한 개성을 가지고 있어요.,She has a unique personality.,그의 성격은 밝아요.,His personality is bright.,그녀의 매력적인 성격은 모든 사람을 끌어당깁니다.,Her charming personality draws everyone to her.
+소설,novel,소설을 읽었어요.,I read a novel.,새로운 아이디어를 냈어요.,I came up with a novel idea.,그녀의 첫 소설은 비평가들의 호평을 받았습니다.,Her debut novel received critical acclaim.
+문장,passage,책의 한 문장을 읽었어요.,I read a passage from the book.,통로를 지나갔어요.,I went through the passage.,그는 연설에서 중요한 구절을 인용했습니다.,He quoted an important passage in his speech.
+개념,concept,이것은 어려운 개념이에요.,This is a difficult concept.,새로운 개념을 배웠어요.,I learned a new concept.,추상적인 개념을 이해하는 것은 때때로 어려울 수 있습니다.,Understanding abstract concepts can sometimes be challenging.
+저울,scale,저울로 무게를 쟀어요.,I weighed it on a scale.,규모가 커요.,The scale is large.,그들은 프로젝트의 규모를 확장하기로 결정했습니다.,They decided to expand the scale of the project.
+의제,agenda,회의 의제가 있어요.,I have a meeting agenda.,숨겨진 의제가 있었어요.,There was a hidden agenda.,그들은 회의의 의제를 논의하고 다음 단계를 계획했습니다.,They discussed the agenda for the meeting and planned the next steps.
+설명,explanation,설명을 해주세요.,Please give me an explanation.,그의 설명은 명확했어요.,His explanation was clear.,그녀는 복잡한 이론에 대한 명확한 설명을 제공했습니다.,She provided a clear explanation of the complex theory.
+혁명,revolution,혁명이 일어났어요.,A revolution occurred.,산업 혁명은 사회를 변화시켰어요.,The Industrial Revolution changed society.,기술 혁명은 우리의 삶의 방식을 근본적으로 변화시켰습니다.,The technological revolution has fundamentally changed the way we live.
+무기,weapon,무기를 사용했어요.,I used a weapon.,핵무기는 위험해요.,Nuclear weapons are dangerous.,그들은 평화를 유지하기 위해 핵무기 확산을 막으려 노력합니다.,They strive to prevent the proliferation of nuclear weapons to maintain peace.
+인내심,patience,인내심을 가지세요.,Have patience.,그는 인내심이 많아요.,He has a lot of patience.,위대한 업적은 종종 엄청난 인내심과 끈기를 요구합니다.,Great achievements often require immense patience and perseverance.
+자금,fund,자금을 모금했어요.,I raised funds.,프로젝트에 자금을 제공했어요.,I funded the project.,그들은 새로운 연구 프로젝트를 위한 자금을 확보했습니다.,They secured funds for a new research project.
+증인,witness,증인이 필요해요.,I need a witness.,사고를 목격했어요.,I witnessed the accident.,그녀는 범죄의 유일한 목격자였습니다.,She was the sole witness to the crime.
+빤히보다,stare,그는 저를 빤히 봤어요.,He stared at me.,왜 그렇게 빤히 봐요?,Why are you staring like that?,그녀는 미지의 물체를 응시하며 설명할 수 없는 감정을 느꼈습니다.,She stared at the unknown object, feeling an inexplicable emotion.
+탈것,vehicle,탈것을 운전해요.,I drive a vehicle.,새로운 운송 수단이 필요해요.,We need a new vehicle.,전기차는 미래의 주요 운송 수단이 될 것입니다.,Electric vehicles will be the primary means of transport in the future.
+대기,atmosphere,대기가 맑아요.,The atmosphere is clear.,분위기가 좋아요.,The atmosphere is good.,지구의 대기는 생명체가 살 수 있도록 보호합니다.,The Earth's atmosphere protects life.
+기초,basis,이것은 기초예요.,This is the basis.,논쟁의 기초가 없어요.,There is no basis for the argument.,그들의 주장은 확고한 증거를 기반으로 합니다.,Their argument is based on solid evidence.
+가장자리,edge,가장자리에 앉았어요.,I sat on the edge.,칼날이 날카로워요.,The blade has a sharp edge.,그녀는 절벽 가장자리에 서서 아래 바다를 바라보았습니다.,She stood on the edge of the cliff, looking at the sea below.
+치료법,therapy,치료법을 찾았어요.,I found a therapy.,물리 치료를 받았어요.,I received physical therapy.,음악 치료는 정신 건강에 긍정적인 영향을 미칠 수 있습니다.,Music therapy can have a positive impact on mental health.
+보험,insurance,보험에 가입했어요.,I bought insurance.,건강 보험이 필요해요.,I need health insurance.,자동차 보험은 사고 발생 시 재정적 보호를 제공합니다.,Car insurance provides financial protection in case of an accident.
+10년,decade,10년 동안 살았어요.,I lived for a decade.,지난 10년 동안 많은 변화가 있었어요.,Many changes happened in the last decade.,지난 10년 동안 기술은 놀라운 속도로 발전했습니다.,Technology has advanced at an incredible pace over the last decade.
+기쁨,delight,기쁨을 느꼈어요.,I felt delight.,그 소식에 기뻤어요.,I was delighted by the news.,그녀는 손녀의 방문에 큰 기쁨을 느꼈습니다.,She took great delight in her granddaughter's visit.
+요금,charge,요금을 지불했어요.,I paid the charge.,책임을 졌어요.,I took charge.,그는 살인 혐의로 기소되었습니다.,He was charged with murder.
+목표,aim,목표를 세웠어요.,I set an aim.,목표를 향해 나아갔어요.,I aimed for the goal.,그들의 주요 목표는 빈곤을 줄이는 것입니다.,Their primary aim is to reduce poverty.
+요청,request,요청했어요.,I made a request.,도움을 요청했어요.,I requested help.,그녀는 회의에서 발표할 기회를 요청했습니다.,She made a request for an opportunity to present at the conference.
+논평,comment,논평을 남겼어요.,I left a comment.,그는 아무 말도 논평하지 않았어요.,He didn't comment on anything.,그녀의 발언은 많은 논평을 불러일으켰습니다.,Her remark drew many comments.
+토론,debate,토론을 했어요.,We had a debate.,그들은 정책에 대해 토론했어요.,They debated the policy.,그들은 중요한 사회 문제에 대해 열띤 토론을 벌였습니다.,They engaged in a heated debate on an important social issue.
+패배시키다,defeat,적을 패배시켰어요.,I defeated the enemy.,패배를 인정했어요.,I admitted defeat.,그들은 압도적인 적을 상대로 놀라운 승리를 거두었습니다.,They achieved a stunning victory against an overwhelming opponent.
+치다,strike,공을 쳤어요.,I struck the ball.,파업을 했어요.,They went on strike.,번개가 나무를 쳤습니다.,Lightning struck the tree.
+우주비행사,astronaut,우주비행사가 꿈이에요.,My dream is to be an astronaut.,우주비행사는 우주에 가요.,Astronauts go to space.,우주비행사는 우주 탐사의 최전선에 서 있습니다.,Astronauts stand at the forefront of space exploration.
+천재,genius,그는 천재예요.,He is a genius.,천재적인 아이디어를 냈어요.,He came up with a genius idea.,그녀는 수학 분야에서 천재적인 재능을 보여주었습니다.,She displayed a genius for mathematics.
+자선,charity,자선 단체에 기부했어요.,I donated to a charity.,자선 사업을 했어요.,I did charity work.,그 자선 단체는 전 세계의 빈곤 퇴치를 위해 노력합니다.,The charity works to alleviate poverty worldwide.
+감옥,prison,감옥에 갔어요.,He went to prison.,감옥에서 탈출했어요.,He escaped from prison.,그는 무고하게 감옥에서 10년을 보냈습니다.,He spent ten years in prison for a crime he didn't commit.
+시리즈,series,드라마 시리즈를 봤어요.,I watched a drama series.,책 시리즈를 읽었어요.,I read a book series.,그는 새로운 소설 시리즈를 출판할 계획입니다.,He plans to publish a new series of novels.
+약속,appointment,약속이 있어요.,I have an appointment.,의사와 약속했어요.,I made an appointment with the doctor.,그녀는 중요한 직책에 임명되었습니다.,She received an appointment to an important position.
+좁은길,track,좁은 길을 걸었어요.,I walked on a narrow track.,발자국을 추적했어요.,I tracked the footprints.,그들은 숲 속의 오래된 사냥꾼 길을 따라갔습니다.,They followed the old hunter's track through the forest.
+법,code,법을 지켜야 해요.,You must follow the code.,비밀 암호를 사용했어요.,I used a secret code.,새로운 윤리 강령은 모든 직원에게 적용됩니다.,The new code of ethics applies to all employees.
+강의,lecture,강의를 들었어요.,I attended a lecture.,교수님이 강의했어요.,The professor lectured.,그녀는 환경 보호에 대한 흥미로운 강의를 했습니다.,She gave an interesting lecture on environmental protection.
+도움,aid,도움을 요청했어요.,I asked for aid.,그를 도왔어요.,I aided him.,국제 원조는 재난 지역에 필수적인 지원을 제공합니다.,International aid provides essential support to disaster-stricken areas.
+손해,harm,손해를 입혔어요.,I caused harm.,아무도 해치지 않았어요.,I harmed no one.,그녀는 자신의 행동이 다른 사람에게 해를 끼치지 않도록 항상 조심합니다.,She is always careful not to cause harm to others with her actions.
+편견,prejudice,편견을 가지지 마세요.,Don't have prejudice.,그는 편견을 가지고 있어요.,He has prejudice.,인종적 편견은 사회의 통합을 방해합니다.,Racial prejudice hinders social cohesion.
+옮기다,transfer,돈을 옮겼어요.,I transferred money.,다른 부서로 이동했어요.,I transferred to another department.,환자 이송은 의료진의 신속한 조치를 필요로 합니다.,Patient transfer requires prompt action from medical staff.
+매혹하다,fascinate,그 이야기는 저를 매혹했어요.,The story fascinated me.,그녀는 매력적인 미소를 지었어요.,She had a fascinating smile.,고대 문명의 미스터리는 항상 역사가들을 매혹시켜왔습니다.,The mystery of ancient civilizations has always fascinated historians.
+좌절시키다,frustrate,그는 저를 좌절시켰어요.,He frustrated me.,좌절감을 느꼈어요.,I felt frustrated.,반복되는 실패는 그를 좌절시켰지만, 그는 포기하지 않았습니다.,Repeated failures frustrated him, but he did not give up.
+신원,identity,신원을 확인했어요.,I confirmed his identity.,그녀는 자신의 정체성을 찾고 있어요.,She is searching for her identity.,그녀는 예술을 통해 자신의 문화적 정체성을 표현합니다.,She expresses her cultural identity through art.
+물질,substance,이상한 물질을 발견했어요.,I found a strange substance.,이 물질은 독성이 있어요.,This substance is toxic.,그 과학자는 새로운 화학 물질을 합성했습니다.,The scientist synthesized a new chemical substance.
+물리학,physics,물리학을 공부해요.,I study physics.,물리학은 어려운 과목이에요.,Physics is a difficult subject.,양자 물리학은 우주의 근본적인 원리를 탐구합니다.,Quantum physics explores the fundamental principles of the universe.
+운동,motion,움직임이 없어요.,There is no motion.,지구는 태양 주위를 돌아요.,The Earth is in motion around the sun.,그는 손짓으로 저에게 다가오라고 신호했습니다.,He motioned for me to come closer with a gesture.
+실험실,laboratory,실험실에서 실험했어요.,I experimented in the laboratory.,새로운 약을 개발하는 실험실이에요.,It's a laboratory for developing new drugs.,그 과학자들은 최첨단 실험실에서 혁신적인 연구를 수행합니다.,The scientists conduct groundbreaking research in a state-of-the-art laboratory.
+결론,conclusion,결론을 내렸어요.,I reached a conclusion.,보고서의 결론을 읽었어요.,I read the conclusion of the report.,그녀는 모든 증거를 검토한 후 논리적인 결론에 도달했습니다.,She reached a logical conclusion after reviewing all the evidence.
+구,phrase,이 구의 의미는 무엇인가요?,What is the meaning of this phrase?,재미있는 구절을 사용했어요.,I used a funny phrase.,그녀는 연설에서 인상적인 구절을 사용했습니다.,She used a memorable phrase in her speech.
+흥분,excitement,흥분했어요.,I felt excitement.,흥미진진한 경기였어요.,It was an exciting game.,그녀는 새로운 모험에 대한 흥분으로 가득 차 있었습니다.,She was filled with excitement for the new adventure.
+기적,miracle,기적이 일어났어요.,A miracle happened.,기적을 믿어요.,I believe in miracles.,그녀는 기적적으로 사고에서 살아남았습니다.,She miraculously survived the accident.
+위협,threat,위협을 느꼈어요.,I felt a threat.,테러 위협이 있었어요.,There was a terrorist threat.,기후 변화는 인류에게 심각한 위협이 됩니다.,Climate change poses a serious threat to humanity.
+수확,harvest,곡물을 수확했어요.,I harvested grain.,풍성한 수확이었어요.,It was a rich harvest.,농부들은 가을에 농작물을 수확합니다.,Farmers harvest their crops in the autumn.
+검토,review,보고서를 검토했어요.,I reviewed the report.,복습을 했어요.,I did a review.,그들은 프로젝트의 진행 상황을 검토하기 위해 회의를 가졌습니다.,They held a meeting to review the progress of the project.
+잡아채기,grab,가방을 잡아챘어요.,I grabbed the bag.,빨리 잡아채세요.,Grab it quickly.,그는 서둘러 코트를 움켜쥐고 문 밖으로 나갔습니다.,He quickly grabbed his coat and rushed out the door.
+퍼즐,puzzle,퍼즐을 풀었어요.,I solved a puzzle.,그는 저를 혼란시켰어요.,He puzzled me.,그 사건은 경찰에게 풀리지 않는 퍼즐로 남아 있습니다.,The case remains an unsolved puzzle for the police.
+주장,claim,그는 자신의 주장을 했어요.,He made his claim.,돈을 요구했어요.,He claimed the money.,그녀는 자신이 무죄라고 강력히 주장했습니다.,She strongly claimed her innocence.
+여가,leisure,여가 시간을 즐겨요.,I enjoy my leisure time.,여가 활동을 해요.,I do leisure activities.,그녀는 여가 시간에 책을 읽거나 정원을 가꾸는 것을 좋아합니다.,She enjoys reading books and gardening in her leisure time.
+문학,literature,문학을 공부해요.,I study literature.,한국 문학을 좋아해요.,I like Korean literature.,그녀는 고전 문학에 대한 깊은 지식을 가지고 있습니다.,She has a deep knowledge of classical literature.
+사생활,privacy,사생활을 존중해요.,I respect privacy.,사생활 보호가 중요해요.,Privacy protection is important.,개인의 사생활을 보호하는 것은 현대 사회에서 중요한 문제입니다.,Protecting individual privacy is an important issue in modern society.
+임무,duty,임무를 다했어요.,I fulfilled my duty.,세금을 내야 해요.,You have to pay your duty.,군인은 국가를 방어할 의무가 있습니다.,A soldier's duty is to defend their country.
+가난,poverty,가난한 사람들을 도왔어요.,I helped poor people.,가난은 큰 문제예요.,Poverty is a big problem.,그 자선 단체는 전 세계의 빈곤 퇴치를 위해 노력합니다.,The charity works to alleviate poverty worldwide.
+정책,policy,새로운 정책을 발표했어요.,They announced a new policy.,정부 정책이 중요해요.,Government policy is important.,정부는 경제 성장을 촉진하기 위한 새로운 정책을 시행했습니다.,The government implemented a new policy to stimulate economic growth.
+개선,improvement,개선이 필요해요.,Improvement is needed.,그는 자신의 실력을 개선했어요.,He improved his skills.,기술의 지속적인 개선은 우리의 삶을 더 편리하게 만듭니다.,Continuous improvement in technology makes our lives more convenient.
+기대,expectation,기대가 커요.,My expectations are high.,기대에 부응해야 해요.,You have to meet expectations.,그녀는 자신의 능력에 대한 높은 기대를 가지고 있었습니다.,She had high expectations for her own abilities.
+환상,fantasy,환상적인 이야기를 읽었어요.,I read a fantasy story.,공상 영화를 봤어요.,I watched a fantasy movie.,그녀는 현실에서 벗어나 환상의 세계로 도피하는 것을 좋아했습니다.,She loved to escape from reality into a world of fantasy.
+파괴,destruction,도시가 파괴되었어요.,The city was destroyed.,환경 파괴가 심각해요.,Environmental destruction is serious.,전쟁은 엄청난 파괴와 고통을 가져왔습니다.,The war brought immense destruction and suffering.
+편안함,comfort,편안함을 느꼈어요.,I felt comfort.,그녀를 위로했어요.,I comforted her.,그녀는 힘든 시기에 가족에게서 큰 위안을 얻었습니다.,She found great comfort in her family during difficult times.
+여기다,regard,그를 친구로 여겨요.,I regard him as a friend.,그는 존경받는 사람이에요.,He is a person of high regard.,그녀는 모든 면에서 존경받는 학자입니다.,She is a respected scholar in every regard.
+흔들리다,swing,그네가 흔들렸어요.,The swing swung.,야구 방망이를 휘둘렀어요.,I swung the baseball bat.,그녀는 그네에 앉아 하늘 높이 흔들렸습니다.,She sat on the swing and swung high into the sky.
+제조,manufacture,자동차를 제조해요.,They manufacture cars.,제조업이 중요해요.,Manufacturing is important.,그 회사는 고품질 전자 제품을 제조합니다.,The company manufactures high-quality electronic products.
+오해하다,misunderstand,오해했어요.,I misunderstood.,그는 저를 오해했어요.,He misunderstood me.,그녀는 그의 침묵을 오해하여 그가 화났다고 생각했습니다.,She misunderstood his silence and thought he was angry.
+친구,companion,그는 좋은 친구예요.,He is a good companion.,여행 동반자가 필요해요.,I need a travel companion.,그녀는 평생의 충실한 반려견을 가졌습니다.,She had a faithful canine companion for life.
+목적지,destination,목적지에 도착했어요.,I arrived at the destination.,여행 목적지가 어디인가요?,What is your travel destination?,그들은 아름다운 해변 도시를 다음 여행 목적지로 선택했습니다.,They chose a beautiful coastal city as their next travel destination.
+소질,aptitude,그는 음악에 소질이 있어요.,He has an aptitude for music.,그녀는 언어에 소질이 있어요.,She has an aptitude for languages.,그녀는 수학과 과학에 뛰어난 소질을 보였습니다.,She showed a remarkable aptitude for mathematics and science.
+지위,statue,그는 높은 지위를 가지고 있어요.,He has a high status.,사회적 신분이 중요해요.,Social status is important.,그는 사회에서 존경받는 지위를 얻었습니다.,He achieved a respected status in society.
+수단,means,성공의 수단은 무엇인가요?,What is the means to success?,돈이 많아요.,He has a lot of means.,그들은 목표를 달성하기 위한 모든 수단을 동원했습니다.,They employed all available means to achieve their goal.
+종교,religion,종교는 다양해요.,Religions are diverse.,그는 종교를 믿어요.,He believes in religion.,종교는 많은 사람들에게 삶의 의미와 목적을 제공합니다.,Religion provides meaning and purpose in life for many people.
+칼럼,column,신문 칼럼을 읽었어요.,I read a newspaper column.,기둥이 무너졌어요.,The column collapsed.,그녀는 유명한 신문 칼럼니스트입니다.,She is a well-known newspaper columnist.
+이산화탄소,carbon dioxide,이산화탄소는 공기를 오염시켜요.,Carbon dioxide pollutes the air.,이산화탄소 배출량을 줄여야 해요.,We need to reduce carbon dioxide emissions.,식물은 광합성 과정에서 이산화탄소를 흡수합니다.,Plants absorb carbon dioxide during photosynthesis.
+거주지,shelter,피난처를 찾았어요.,I found a shelter.,비가 올 때 머물렀어요.,I sheltered when it rained.,그들은 폭풍우로부터 피난처를 찾았습니다.,They sought shelter from the storm.
+이익,profit,이익을 얻었어요.,I made a profit.,이 사업은 이익이 많아요.,This business has a lot of profit.,그 회사는 지난 분기에 상당한 이익을 보고했습니다.,The company reported a significant profit last quarter.
+독,poison,독이 있어요.,It has poison.,음식을 중독시켰어요.,He poisoned the food.,독사는 먹이를 마비시키기 위해 독을 사용합니다.,The venomous snake uses its poison to paralyze its prey.
+화,anger,화가 났어요.,I felt anger.,그녀는 화를 참았어요.,She controlled her anger.,그의 분노는 불의에 대한 깊은 좌절감에서 비롯되었습니다.,His anger stemmed from a deep sense of frustration at the injustice.
+흥분시키다,thrill,그 영화는 저를 흥분시켰어요.,The movie thrilled me.,흥분되는 순간이었어요.,It was a thrilling moment.,롤러코스터를 타는 것은 항상 저에게 짜릿함을 줍니다.,Riding a roller coaster always gives me a thrill.
+갈등,conflict,갈등이 있었어요.,There was a conflict.,그들은 대립했어요.,They conflicted.,그들의 의견 충돌은 팀 내에 긴장을 유발했습니다.,Their conflict of opinions created tension within the team.
+집세,rent,집세를 냈어요.,I paid the rent.,방을 빌렸어요.,I rented a room.,그들은 휴가 동안 해변가 별장을 빌렸습니다.,They rented a beach house for their vacation.
+신입생,freshman,저는 신입생이에요.,I am a freshman.,신입생 환영회가 있어요.,There is a freshman orientation.,그는 대학교에서 신입생으로서 새로운 생활을 시작했습니다.,He began his new life as a freshman in college.
+시설,facility,좋은 시설이 있어요.,There are good facilities.,그는 재능이 있어요.,He has a facility for learning.,그 스포츠 시설은 최첨단 장비를 갖추고 있습니다.,The sports facility is equipped with state-of-the-art equipment.
+반도,peninsular,한반도는 아름다워요.,The Korean peninsula is beautiful.,반도에 살아요.,I live on a peninsula.,한반도는 동아시아에 위치한 중요한 지리적 특징입니다.,The Korean Peninsula is an important geographical feature located in East Asia.
+산소,oxygen,산소가 필요해요.,We need oxygen.,산소는 생명에 필수적이에요.,Oxygen is essential for life.,식물은 광합성 과정에서 산소를 방출합니다.,Plants release oxygen during photosynthesis.
+층,layer,케이크 한 층을 먹었어요.,I ate a layer of cake.,옷을 여러 겹 입었어요.,I wore many layers of clothes.,지구의 대기는 여러 층으로 구성되어 있습니다.,The Earth's atmosphere consists of several layers.
+폭발,explosion,폭발이 일어났어요.,An explosion occurred.,큰 폭발이었어요.,It was a big explosion.,화산 폭발은 주변 지역에 엄청난 피해를 입혔습니다.,The volcanic explosion caused immense damage to the surrounding areas.
+속도,pace,속도를 높였어요.,I increased my pace.,한 걸음 걸었어요.,I took a pace.,그는 자신의 연구 속도를 조절하는 데 능숙합니다.,He is good at controlling the pace of his research.
+사건,incident,이상한 사건이 있었어요.,There was a strange incident.,작은 사고였어요.,It was a minor incident.,그 사건은 지역 사회에 큰 파장을 일으켰습니다.,The incident caused a significant stir in the local community.
+사진술,photography,사진술을 배웠어요.,I learned photography.,사진술은 예술이에요.,Photography is an art.,그녀는 사진술에 대한 열정으로 아름다운 풍경 사진을 찍습니다.,She takes beautiful landscape photos with a passion for photography.
+화장,make-up,화장을 했어요.,I put on make-up.,팀 구성이 좋아요.,The team's make-up is good.,그녀는 중요한 행사를 위해 화장을 했습니다.,She put on make-up for an important event.
+경비원,guard,경비원이 지키고 있어요.,A guard is watching.,문을 지켜야 해요.,You need to guard the door.,그 경비원은 밤새도록 건물을 지켰습니다.,The guard watched over the building all night.
+먼지,dust,먼지가 많아요.,There is a lot of dust.,먼지를 털었어요.,I dusted the furniture.,오래된 책상에는 두꺼운 먼지층이 쌓여 있었습니다.,A thick layer of dust had accumulated on the old desk.
+희생,sacrifice,희생했어요.,I sacrificed.,큰 희생이었어요.,It was a great sacrifice.,그들은 미래 세대를 위해 많은 것을 희생했습니다.,They made many sacrifices for future generations.
+구입,purchase,책을 구입했어요.,I purchased a book.,새로운 구입이었어요.,It was a new purchase.,그녀는 온라인으로 새로운 옷을 구매했습니다.,She made a new clothing purchase online.
+구조물,construct,건물을 건축했어요.,I constructed a building.,복잡한 구조물이에요.,It's a complex construct.,그들은 새로운 다리를 건설하기 시작했습니다.,They began to construct a new bridge.
+지휘자,conductor,오케스트라 지휘자예요.,He is an orchestra conductor.,이 금속은 좋은 전도체예요.,This metal is a good conductor.,그 지휘자는 오케스트라를 이끌고 훌륭한 연주를 선보였습니다.,The conductor led the orchestra and delivered a magnificent performance.
+야생동물,wildlife,야생동물을 보호해야 해요.,We should protect wildlife.,야생동물 사진을 찍었어요.,I took wildlife photos.,야생동물 보호는 생물 다양성 보존에 필수적입니다.,Wildlife conservation is essential for preserving biodiversity.
+정상,summit,산 정상에 올랐어요.,I reached the summit of the mountain.,정상 회담이 열렸어요.,A summit meeting was held.,그들은 세계 평화를 논의하기 위해 정상 회담에서 만났습니다.,They met at the summit to discuss global peace.
+지평선,horizon,지평선이 보여요.,I can see the horizon.,수평선 너머로 해가 지고 있어요.,The sun is setting beyond the horizon.,그녀는 항상 새로운 기회를 찾아 지평선을 바라봅니다.,She always looks to the horizon for new opportunities.
+실마리,clue,실마리를 찾았어요.,I found a clue.,단서가 없어요.,There is no clue.,경찰은 사건을 해결하기 위한 중요한 단서를 발견했습니다.,The police found a crucial clue to solve the case.
+과제,assignment,과제를 제출했어요.,I submitted my assignment.,새로운 과제를 받았어요.,I received a new assignment.,학생들은 다음 주까지 에세이 과제를 완료해야 합니다.,Students must complete their essay assignment by next week.
+믿음,faith,믿음이 강해요.,My faith is strong.,그는 믿음을 잃지 않았어요.,He didn't lose faith.,그녀는 자신의 꿈에 대한 확고한 믿음을 가지고 있습니다.,She has unwavering faith in her dreams.
+굶주림,hunger,굶주림을 느꼈어요.,I felt hunger.,배고픔이 심해요.,The hunger is severe.,전 세계적으로 수백만 명의 사람들이 굶주림으로 고통받고 있습니다.,Millions of people worldwide suffer from hunger.
+유행,trend,이것은 새로운 유행이에요.,This is a new trend.,유행을 따랐어요.,I followed the trend.,최근 소비자들 사이에서 건강한 식습관이 유행하고 있습니다.,A healthy eating trend is popular among consumers recently.
+잘못,fault,제 잘못이에요.,It's my fault.,결함이 있어요.,It has a fault.,그는 자신의 실수를 인정하고 잘못을 바로잡으려 노력했습니다.,He admitted his mistake and tried to correct his fault.
+폭탄,bomb,폭탄이 터졌어요.,The bomb exploded.,폭탄 위협이 있었어요.,There was a bomb threat.,그들은 전쟁에서 폭탄을 사용했습니다.,They used bombs in the war.
+연구소,institute,연구소에서 일해요.,I work at an institute.,새로운 프로그램을 시작했어요.,I instituted a new program.,그 연구소는 첨단 과학 연구를 전문으로 합니다.,The institute specializes in advanced scientific research.
+전시,display,작품을 전시했어요.,I displayed my artwork.,전시회가 열렸어요.,An exhibition was on display.,그 박물관은 고대 유물을 전시하고 있습니다.,The museum has ancient artifacts on display.
+힐끗보다,glance,힐끗 봤어요.,I glanced at him.,빠른 시선이었어요.,It was a quick glance.,그녀는 시계를 힐끗 보고 회의에 늦었다는 것을 깨달았습니다.,She glanced at her watch and realized she was late for the meeting.
+예약하다,reserve,테이블을 예약했어요.,I reserved a table.,비축 식량이 있어요.,I have food reserves.,그들은 멸종 위기에 처한 동물을 보호하기 위해 자연 보호 구역을 만들었습니다.,They created a nature reserve to protect endangered animals.
+학자,scholar,그는 유명한 학자예요.,He is a famous scholar.,학자가 되고 싶어요.,I want to be a scholar.,그녀는 고대 역사 분야의 저명한 학자입니다.,She is a distinguished scholar in the field of ancient history.
+야자,palm,야자나무가 많아요.,There are many palm trees.,손바닥을 폈어요.,I opened my palm.,그녀는 손바닥에 작은 동전을 쥐고 있었습니다.,She held a small coin in the palm of her hand.
+뿔,horn,사슴 뿔이 멋있어요.,Deer horns are cool.,경적을 울렸어요.,I honked the horn.,코뿔소는 코에 큰 뿔을 가지고 있습니다.,Rhinoceroses have a large horn on their nose.
+화살,arrow,화살을 랐어요.,I shot an arrow.,화살표를 따라갔어요.,I followed the arrow.,그는 활과 화살로 과녁을 정확히 맞췄습니다.,He hit the target precisely with a bow and arrow.
+장치,device,새로운 장치를 만들었어요.,I made a new device.,첨단 장치예요.,It's a high-tech device.,이 장치는 스마트폰과 무선으로 연결됩니다.,This device connects wirelessly to smartphones.
+혼합물,mixture,혼합물을 만들었어요.,I made a mixture.,이상한 혼합물이에요.,It's a strange mixture.,그 용액은 여러 화학 물질의 혼합물입니다.,The solution is a mixture of several chemicals.
+고속도로,highway,고속도로를 달렸어요.,I drove on the highway.,고속도로가 막혔어요.,The highway was blocked.,새로운 고속도로는 도시 간 이동 시간을 크게 단축시킬 것입니다.,The new highway will significantly reduce travel time between cities.
+서식지,habitat,동물의 서식지를 보호해야 해요.,We should protect animal habitats.,그는 새로운 거주지를 찾았어요.,He found a new habitat.,이 습지는 다양한 야생동물의 중요한 서식지입니다.,This wetland is an important habitat for various wildlife.
+농업,agriculture,농업은 중요해요.,Agriculture is important.,농학을 공부해요.,I study agriculture.,현대 농업은 기술 발전에 크게 의존합니다.,Modern agriculture heavily relies on technological advancements.
+문명,civilization,고대 문명을 연구했어요.,I studied ancient civilizations.,문명이 발전했어요.,Civilization developed.,고대 이집트 문명은 놀라운 건축물과 예술을 남겼습니다.,Ancient Egyptian civilization left behind astonishing architecture and art.
+중력,gravity,중력이 있어요.,There is gravity.,지구의 중력은 우리를 땅에 붙잡아요.,Earth's gravity holds us to the ground.,뉴턴은 사과가 떨어지는 것을 보고 중력의 법칙을 발견했습니다.,Newton discovered the law of gravity by observing a falling apple.
+문맥,context,문맥을 이해해야 해요.,You need to understand the context.,이 단어의 맥락은 무엇인가요?,What is the context of this word?,그녀는 발언의 문맥을 설명하여 오해를 풀었습니다.,She explained the context of her remarks to clear up the misunderstanding.
+항의,protest,항의했어요.,I protested.,항의 시위가 있었어요.,There was a protest demonstration.,시민들은 정부의 새로운 정책에 항의하기 위해 모였습니다.,Citizens gathered to protest the government's new policy.
+싱크대,sink,싱크대에서 설거지했어요.,I washed dishes in the sink.,배가 가라앉았어요.,The ship sank.,그녀는 슬픔에 잠겨 눈물을 흘렸습니다.,She sank into sadness and shed tears.
+제비,swallow,제비가 날아갔어요.,A swallow flew away.,약을 삼켰어요.,I swallowed the medicine.,그는 긴장해서 침을 삼키기 어려웠습니다.,He was so nervous that he found it hard to swallow.
+기둥,pole,기둥이 쓰러졌어요.,The pole fell down.,북극에 갔어요.,I went to the North Pole.,그들은 국기를 게양하기 위해 높은 깃대를 세웠습니다.,They erected a tall pole to hoist the flag.
+뗏목,raft,뗏목을 만들었어요.,I made a raft.,뗏목을 타고 강을 건넜어요.,I crossed the river on a raft.,그들은 폭풍우 속에서 살아남기 위해 임시 뗏목을 만들었습니다.,They built a makeshift raft to survive the storm.
+운임,fare,버스 운임을 냈어요.,I paid the bus fare.,기차 운임이 비싸요.,The train fare is expensive.,항공권 운임은 계절에 따라 크게 달라집니다.,Airfare varies significantly depending on the season.
+양,quantity,많은 양의 물이 있어요.,There is a large quantity of water.,수량을 조절해야 해요.,You need to control the quantity.,그들은 필요한 재료의 정확한 양을 계산했습니다.,They calculated the exact quantity of ingredients needed.
+권위,authority,그는 권위가 있어요.,He has authority.,정부 당국이 개입했어요.,The government authorities intervened.,그녀는 이 분야에서 인정받는 권위자입니다.,She is a recognized authority in this field.
+판단,judgement,판단이 중요해요.,Judgment is important.,심판을 받았어요.,I received a judgment.,그녀는 어려운 상황에서도 현명한 판단을 내렸습니다.,She made a wise judgment even in difficult situations.
+성명서,statement,성명서를 발표했어요.,They issued a statement.,진술서를 작성했어요.,I wrote a statement.,경찰은 사건에 대한 공식 성명을 발표했습니다.,The police released an official statement regarding the incident.
+긴장,tension,긴장감이 높아요.,The tension is high.,그는 긴장했어요.,He felt tension.,두 국가 간의 정치적 긴장이 고조되고 있습니다.,Political tension between the two countries is escalating.
+봉하다,seal,편지를 봉했어요.,I sealed the letter.,바다표범을 봤어요.,I saw a seal.,그들은 중요한 문서를 봉인했습니다.,They sealed the important document.
+총계,sum,총계를 계산했어요.,I calculated the sum.,요약해 주세요.,Sum it up for me.,이 모든 숫자의 합은 얼마입니까?,What is the sum of all these numbers?
+공황,panic,공황 상태에 빠졌어요.,I fell into a panic.,공포를 느꼈어요.,I felt panic.,그녀는 갑작스러운 비명에 공황 상태에 빠졌습니다.,She fell into a panic at the sudden scream.
+흔적,trail,흔적을 따라갔어요.,I followed the trail.,옷이 질질 끌렸어요.,My clothes trailed.,그들은 숲 속의 오래된 오솔길을 따라갔습니다.,They followed an old trail through the forest.
+전시회,exhibit,전시회에 갔어요.,I went to an exhibit.,작품을 전시했어요.,I exhibited my artwork.,그 박물관은 고대 이집트 유물을 전시하고 있습니다.,The museum has ancient Egyptian artifacts on exhibit.
+인정,grant,그는 제 주장을 인정했어요.,He granted my claim.,허가를 승인했어요.,They granted permission.,정부는 연구 프로젝트에 대한 자금을 승인했습니다.,The government granted funding for the research project.
+보장,guarantee,성공을 보장해요.,I guarantee success.,품질을 보장해요.,I guarantee the quality.,이 제품은 1년 품질 보증을 제공합니다.,This product comes with a one-year quality guarantee.
+소유물,belonging,소유물을 챙겼어요.,I packed my belongings.,그는 이 그룹에 소속되어 있어요.,He belongs to this group.,그녀는 모든 개인 소유물을 안전하게 보관했습니다.,She kept all her personal belongings safe.
+증거,evidence,증거를 찾았어요.,I found evidence.,증거가 명확해요.,The evidence is clear.,경찰은 범죄 현장에서 중요한 증거를 발견했습니다.,The police found crucial evidence at the crime scene.
+화석,fossil,공룡 화석을 봤어요.,I saw a dinosaur fossil.,화석은 오래된 거예요.,Fossils are old.,고고학자들은 고대 해양 생물의 화석을 발견했습니다.,Archaeologists discovered fossils of ancient marine life.
+생물학,biology,생물학을 공부해요.,I study biology.,생물학은 흥미로워요.,Biology is interesting.,그녀는 생물학 분야에서 뛰어난 연구를 수행했습니다.,She conducted outstanding research in the field of biology.
+학기,semester,새 학기가 시작됐어요.,A new semester started.,이번 학기는 어려워요.,This semester is difficult.,그녀는 다음 학기에 교환 학생 프로그램에 참여할 예정입니다.,She plans to participate in an exchange student program next semester.
+걱정,anxiety,걱정이 많아요.,I have a lot of anxiety.,열망이 강해요.,My desire is strong.,시험에 대한 그녀의 불안감은 잠을 방해했습니다.,Her anxiety about the exam disrupted her sleep.
+수치,shame,수치심을 느꼈어요.,I felt shame.,유감스러운 일이에요.,It's a shame.,그녀는 자신의 행동에 대해 깊은 수치심을 느꼈습니다.,She felt deep shame for her actions.
+기근,famine,기근이 발생했어요.,A famine occurred.,심각한 기근이었어요.,It was a severe famine.,그 나라는 심각한 기근으로 고통받고 있습니다.,The country is suffering from a severe famine.
+막대,bar,막대기를 잡았어요.,I held a bar.,술집에 갔어요.,I went to a bar.,그는 금속 막대를 구부렸습니다.,He bent the metal bar.
+쉬움,ease,쉬웠어요.,It was easy.,편안함을 느꼈어요.,I felt at ease.,통증을 완화했어요.,I eased the pain.,그녀는 어려운 상황에서도 침착함을 유지했습니다.,She maintained her ease even in difficult situations.
+자살,suicide,자살을 시도했어요.,He attempted suicide.,자살은 비극이에요.,Suicide is a tragedy.,정부는 자살률을 줄이기 위한 프로그램을 시행하고 있습니다.,The government is implementing programs to reduce the suicide rate.
+쏘다,shoot,총을 쐈어요.,I shot a gun.,사진을 촬영했어요.,I shot a photo.,그는 농구공을 골대에 정확히 쏘아 넣었습니다.,He shot the basketball precisely into the hoop.
+운송,transport,물건을 운송했어요.,I transported goods.,대중교통을 이용했어요.,I used public transport.,항공 운송은 빠르지만 비쌉니다.,Air transport is fast but expensive.
+어림잡다,estimate,비용을 어림잡았어요.,I estimated the cost.,견적을 받았어요.,I got an estimate.,그들은 프로젝트 완료에 필요한 시간을 어림잡았습니다.,They estimated the time required to complete the project.
+눕히다,lay,아기를 눕혔어요.,I laid the baby down.,알을 낳았어요.,The hen laid an egg.,그녀는 테이블에 책을 놓았습니다.,She laid the book on the table.
+지구,globe,지구를 돌았어요.,I traveled around the globe.,지구본을 봤어요.,I saw a globe.,세계화는 전 세계에 걸쳐 영향을 미칩니다.,Globalization affects the globe.
+그림자,shadow,그림자가 길었어요.,The shadow was long.,그는 그림자처럼 따라다녔어요.,He followed like a shadow.,그녀는 어두운 골목길에서 그림자 속으로 사라졌습니다.,She disappeared into the shadows of the dark alley.
+다수,majority,대부분의 사람들이 동의했어요.,The majority of people agreed.,과반수를 얻었어요.,I got the majority.,대다수의 유권자들은 새로운 정책을 지지했습니다.,The majority of voters supported the new policy.
+협회,association,협회에 가입했어요.,I joined an association.,관련성이 있어요.,There is an association.,그들은 지역 사회 발전을 위한 협회를 설립했습니다.,They established an association for community development.
+잡지,journal,잡지를 읽었어요.,I read a journal.,일기를 썼어요.,I wrote in my journal.,그녀는 과학 저널에 자신의 연구 결과를 발표했습니다.,She published her research findings in a scientific journal.
+허드렛일,chore,집안 허드렛일을 했어요.,I did household chores.,하기 싫은 일이에요.,It's a chore I don't want to do.,매일 아침 설거지는 그녀의 일상적인 허드렛일입니다.,Washing dishes every morning is her daily chore.
+절차,procedure,절차를 따랐어요.,I followed the procedure.,안전 절차가 중요해요.,Safety procedures are important.,그들은 새로운 운영 절차를 개발했습니다.,They developed new operating procedures.
+부족,shortage,식량 부족이 심각해요.,There is a severe shortage of food.,물 부족을 겪고 있어요.,We are experiencing a water shortage.,갑작스러운 전력 부족은 도시 전체를 혼란에 빠뜨렸습니다.,A sudden shortage of electricity plunged the entire city into chaos.
+의도,intention,의도가 좋았어요.,His intention was good.,그는 고의로 그랬어요.,He did it with intention.,그녀는 자신의 의도를 명확히 밝히지 않았습니다.,She did not clearly state her intentions.
+폭력,violence,폭력을 사용하지 마세요.,Don't use violence.,가정 폭력이 심각해요.,Domestic violence is serious.,정부는 폭력을 종식시키기 위한 조치를 취해야 합니다.,The government must take action to end violence.
+끈,string,끈으로 묶었어요.,I tied it with a string.,구슬을 꿰었어요.,I strung beads.,그는 기타 줄을 조율했습니다.,He tuned the guitar strings.
+국경선,border,국경선을 넘었어요.,I crossed the border.,두 나라가 인접해 있어요.,The two countries border each other.,그들은 국경을 넘어 불법적으로 이동했습니다.,They illegally crossed the border.
+쓰레기장,dump,쓰레기장에 버렸어요.,I dumped it in the garbage dump.,쓰레기를 버렸어요.,I dumped the trash.,그들은 오래된 가구를 쓰레기장에 버렸습니다.,They dumped their old furniture at the landfill.
+만남,encounter,우연한 만남이었어요.,It was a chance encounter.,그는 위험에 조우했어요.,He encountered danger.,그녀는 숲에서 예상치 못한 야생동물과의 만남을 가졌습니다.,She had an unexpected encounter with wildlife in the forest.
+소홀히하다,neglect,숙제를 소홀히 했어요.,I neglected my homework.,그는 소홀했어요.,He showed neglect.,그녀는 자신의 건강을 소홀히 하여 병에 걸렸습니다.,She neglected her health and fell ill.
+대사,ambassador,대사를 만났어요.,I met the ambassador.,그는 평화 대사예요.,He is an ambassador for peace.,유엔 대사는 국제 평화 유지를 위해 노력합니다.,The UN ambassador works to maintain international peace.
+먼지,dirt,손에 먼지가 묻었어요.,My hands got dirt on them.,흙이 많아요.,There is a lot of dirt.,그녀는 정원에서 일한 후 손의 흙을 씻어냈습니다.,She washed the dirt off her hands after working in the garden.
+재산,property,재산이 많아요.,He has a lot of property.,이것은 이 물질의 특성이에요.,This is a property of this substance.,그는 자신의 모든 재산을 자선 단체에 기부했습니다.,He donated all his property to charity.
+수입,income,수입이 증가했어요.,My income increased.,월 수입이 얼마예요?,What is your monthly income?,그녀는 추가 수입을 얻기 위해 파트타임으로 일합니다.,She works part-time to earn extra income.
+범주,category,이것은 어떤 범주에 속하나요?,What category does this belong to?,새로운 범주를 만들었어요.,I created a new category.,그들은 제품을 여러 범주로 분류했습니다.,They categorized their products into several categories.
+상황,circumstance,어려운 상황이었어요.,It was a difficult circumstance.,상황이 바뀌었어요.,The circumstances changed.,그녀는 어려운 상황에서도 침착함을 유지했습니다.,She maintained her composure even in difficult circumstances.
+평등,equality,평등을 추구해요.,I seek equality.,성 평등이 중요해요.,Gender equality is important.,모든 시민은 법 앞에서 평등한 권리를 가져야 합니다.,All citizens should have equal rights before the law.
+선거,election,선거에 참여했어요.,I participated in the election.,대통령 선거가 있어요.,There is a presidential election.,그는 다음 선거에서 대통령 후보로 출마할 예정입니다.,He plans to run as a presidential candidate in the next election.
+멸종,extinction,공룡은 멸종했어요.,Dinosaurs went extinct.,멸종 위기에 처한 동물들이 있어요.,There are endangered animals facing extinction.,기후 변화는 많은 종의 멸종을 가속화하고 있습니다.,Climate change is accelerating the extinction of many species.
+발언,remark,이상한 발언을 했어요.,He made a strange remark.,아무 말도 하지 않았어요.,He didn't remark on anything.,그녀의 발언은 회의실에 침묵을 가져왔습니다.,Her remark brought silence to the meeting room.
+은행에맡기다,deposit,돈을 은행에 맡겼어요.,I deposited money in the bank.,예치금을 냈어요.,I paid a deposit.,그녀는 은행 계좌에 매달 일정 금액을 예금합니다.,She deposits a fixed amount into her bank account every month.
+순환,cycle,물은 순환해요.,Water cycles.,생명의 순환이에요.,It's the cycle of life.,자연은 끊임없는 생명의 순환을 보여줍니다.,Nature demonstrates a continuous cycle of life.
+뒤쫓다,chase,그는 도둑을 뒤쫓았어요.,He chased the thief.,추격전이 있었어요.,There was a chase.,경찰은 용의자를 숲 속으로 추격했습니다.,The police chased the suspect into the forest.
+망치다,ruin,계획을 망쳤어요.,I ruined the plan.,도시는 폐허가 되었어요.,The city was in ruin.,그녀는 자신의 행동이 친구와의 관계를 망칠까 봐 두려워했습니다.,She feared her actions would ruin her friendship.
+용서하다,forgive,그를 용서했어요.,I forgave him.,용서해 주세요.,Please forgive me.,그녀는 진심으로 사과했고, 그는 그녀를 용서했습니다.,She sincerely apologized, and he forgave her.
+성직자,priest,성직자를 만났어요.,I met a priest.,그는 신부님이에요.,He is a priest.,그 성직자는 지역 사회에서 존경받는 인물입니다.,The priest is a respected figure in the community.
+장기,organ,심장은 장기예요.,The heart is an organ.,오르간을 연주해요.,I play the organ.,인체는 복잡한 장기 시스템으로 이루어져 있습니다.,The human body is composed of a complex system of organs.
+망원경,telescope,망원경으로 별을 봤어요.,I saw stars with a telescope.,새로운 망원경을 샀어요.,I bought a new telescope.,허블 우주 망원경은 우주의 놀라운 이미지를 제공합니다.,The Hubble Space Telescope provides amazing images of the universe.
+칼,sword,칼을 들었어요.,I held a sword.,칼싸움을 했어요.,I had a sword fight.,고대 전사들은 전투에서 검을 사용했습니다.,Ancient warriors used swords in battle.
+복지,welfare,복지 정책이 중요해요.,Welfare policy is important.,국민의 복지를 위해 노력해요.,We work for the welfare of the people.,정부는 시민의 복지를 향상시키기 위한 프로그램을 시행합니다.,The government implements programs to improve the welfare of its citizens.
+관광사업,tourism,관광 사업이 발전하고 있어요.,Tourism is developing.,관광 산업은 중요해요.,The tourism industry is important.,이 도시는 관광 사업으로 유명합니다.,This city is famous for its tourism.
+어조,tone,어조가 달라요.,The tone is different.,음조가 높아요.,The tone is high.,그녀는 자신의 목소리 톤을 조절하여 메시지를 명확하게 전달했습니다.,She adjusted the tone of her voice to convey her message clearly.
+주제,theme,이 책의 주제는 무엇인가요?,What is the theme of this book?,주제곡이 좋아요.,The theme song is good.,그 영화의 주제는 사랑과 상실입니다.,The theme of the movie is love and loss.
+준비,preparation,준비가 필요해요.,Preparation is needed.,시험 준비를 했어요.,I prepared for the exam.,그녀는 중요한 발표를 위해 철저한 준비를 했습니다.,She made thorough preparations for the important presentation.
+폐물,junk,폐물을 버렸어요.,I threw away junk.,오래된 물건을 내버렸어요.,I junked old items.,그는 차고에 쌓인 모든 폐품을 버리기로 결정했습니다.,He decided to get rid of all the junk accumulated in his garage.
+호각,whistle,호각을 불었어요.,I blew a whistle.,휘파람을 불었어요.,I whistled.,심판은 경기 시작을 알리기 위해 호각을 불었습니다.,The referee blew the whistle to signal the start of the game.
+궤도,orbit,지구가 태양 주위를 돌아요.,The Earth orbits the sun.,위성이 궤도를 돌아요.,The satellite orbits.,국제 우주 정거장은 지구 주위를 궤도 비행합니다.,The International Space Station orbits around the Earth.
+응시,stare,그는 저를 응시했어요.,He stared at me.,왜 그렇게 응시해요?,Why are you staring like that?,그녀는 미지의 물체를 응시하며 설명할 수 없는 감정을 느꼈습니다.,She stared at the unknown object, feeling an inexplicable emotion.
+금지하다,forbid,그것은 금지되어 있어요.,It is forbidden.,그는 저에게 가지 말라고 금지했어요.,He forbade me to go.,법은 공공장소에서의 흡연을 금지합니다.,The law forbids smoking in public places.
+허락하다,permit,들어가는 것을 허락했어요.,I permitted entry.,허가증이 필요해요.,You need a permit.,부모님은 제가 파티에 가는 것을 허락했습니다.,My parents permitted me to go to the party.
+승무원,crew,승무원들이 친절해요.,The crew members are kind.,비행기 승무원이에요.,I am an airplane crew member.,우주선 승무원들은 우주에서 몇 달을 보냈습니다.,The spacecraft crew spent several months in space.
+비용,expense,비용이 많이 들어요.,It costs a lot of expense.,여행 경비가 비싸요.,Travel expenses are high.,그들은 마케팅 캠페인에 많은 비용을 지출했습니다.,They incurred significant expense for the marketing campaign.
+시대,era,새로운 시대가 시작됐어요.,A new era began.,고대 시대였어요.,It was an ancient era.,산업 혁명은 새로운 시대를 열었습니다.,The Industrial Revolution ushered in a new era.
+배기,emission,배기 가스가 많아요.,There are many emissions.,방사선이 방출되었어요.,Radiation was emitted.,자동차 배기가스는 대기 오염의 주요 원인입니다.,Car emissions are a major cause of air pollution.
+질환,disorder,수면 질환을 앓고 있어요.,I have a sleep disorder.,정신 질환을 앓고 있어요.,He has a mental disorder.,그녀는 희귀한 신경 질환으로 고통받고 있습니다.,She suffers from a rare neurological disorder.
+회의,conference,회의에 참석했어요.,I attended a conference.,국제 회의였어요.,It was an international conference.,그들은 다음 달에 중요한 과학 컨퍼런스를 개최할 예정입니다.,They are scheduled to hold an important scientific conference next month.
+점토,clay,점토로 만들었어요.,I made it with clay.,점토는 부드러워요.,Clay is soft.,도예가는 점토로 아름다운 도자기를 만들었습니다.,The potter created beautiful pottery from clay.
+채널,channel,TV 채널을 바꿨어요.,I changed the TV channel.,정보 경로를 찾았어요.,I found a channel for information.,그녀는 자신의 감정을 예술을 통해 표현하는 채널을 찾았습니다.,She found a channel to express her emotions through art.
+통계학,statistics,통계학을 공부해요.,I study statistics.,통계 자료가 중요해요.,Statistical data is important.,최신 통계는 경제 성장을 보여줍니다.,The latest statistics show economic growth.
+명령,command,명령을 내렸어요.,I gave a command.,군대 지휘관이에요.,He is a military commander.,그는 모든 병사들에게 즉시 후퇴하라고 명령했습니다.,He commanded all soldiers to retreat immediately.
+제기하다,pose,질문을 제기했어요.,I posed a question.,사진 포즈를 취했어요.,I struck a pose for the photo.,그녀의 질문은 중요한 윤리적 딜레마를 제기했습니다.,Her question posed a significant ethical dilemma.
+체포,arrest,그를 체포했어요.,I arrested him.,체포 영장이 발부되었어요.,An arrest warrant was issued.,경찰은 용의자를 체포하기 위해 신속하게 행동했습니다.,The police acted swiftly to arrest the suspect.
+뛰다,leap,높이 뛰었어요.,I leaped high.,큰 도약이었어요.,It was a great leap.,그녀는 기쁨에 겨워 공중으로 뛰어올랐습니다.,She leaped into the air with joy.
+손바닥으로때리다,slap,뺨을 때렸어요.,I slapped his face.,가벼운 타격이었어요.,It was a light slap.,그녀는 장난스럽게 그의 팔을 때렸습니다.,She playfully slapped his arm.
+처벌하다,punish,그를 처벌했어요.,I punished him.,죄를 처벌해야 해요.,We must punish crimes.,법은 범죄를 저지른 사람들을 처벌하기 위해 존재합니다.,The law exists to punish those who commit crimes.
+관목,bush,관목이 많아요.,There are many bushes.,숲 속에 숨었어요.,I hid in the bush.,그녀는 덤불 뒤에 숨어 지나가는 사람들을 지켜보았습니다.,She hid behind a bush and watched people pass by.
+재,ash,재가 날렸어요.,Ash flew.,담배 재를 털었어요.,I flicked cigarette ash.,화산 폭발 후 마을은 재로 뒤덮였습니다.,After the volcanic eruption, the village was covered in ash.
+대행사,agency,광고 대행사에서 일해요.,I work at an advertising agency.,정부 기관이에요.,It's a government agency.,그들은 새로운 마케팅 캠페인을 위해 광고 대행사와 계약했습니다.,They contracted with an advertising agency for a new marketing campaign.
+문서,document,문서를 작성했어요.,I wrote a document.,중요한 문서예요.,It's an important document.,그녀는 모든 중요한 서류를 안전하게 보관했습니다.,She kept all important documents safe.
+세금,tax,세금을 냈어요.,I paid tax.,세금이 비싸요.,Taxes are high.,정부는 새로운 소비세 정책을 발표했습니다.,The government announced a new consumption tax policy.
+재판,trial,재판을 받았어요.,I had a trial.,새로운 시도를 했어요.,I made a new trial.,그는 공정한 재판을 받을 권리가 있습니다.,He has the right to a fair trial.
+경우,occasion,특별한 경우였어요.,It was a special occasion.,행사에 참여했어요.,I participated in the occasion.,그녀는 특별한 행사를 위해 아름다운 드레스를 입었습니다.,She wore a beautiful dress for the special occasion.
+수용력,capacity,수용력이 커요.,The capacity is large.,능력이 뛰어나요.,His capacity is excellent.,그 경기장은 5만 명의 관중을 수용할 수 있습니다.,The stadium has a seating capacity of 50,000.
+철,iron,철로 만들었어요.,It's made of iron.,다리미질을 했어요.,I ironed my clothes.,철은 강하고 유용한 금속입니다.,Iron is a strong and useful metal.
+물건,stuff,물건을 정리했어요.,I organized my stuff.,할 일이 많아요.,I have a lot of stuff to do.,그녀는 여행 가방에 많은 물건을 넣었습니다.,She packed a lot of stuff into her suitcase.
+수입,import,외국에서 수입했어요.,I imported from a foreign country.,수입품이 많아요.,There are many imports.,그 나라는 석유 수입에 크게 의존합니다.,The country heavily relies on oil imports.
+모험,venture,새로운 모험을 시작했어요.,I ventured into a new adventure.,위험한 사업이었어요.,It was a risky venture.,그들은 새로운 사업에 대한 공동 투자를 시작했습니다.,They embarked on a joint venture for a new business.
+던지다,cast,그물을 던졌어요.,I cast the net.,배역을 맡았어요.,I cast a role.,그녀는 영화에서 중요한 역할을 맡았습니다.,She was cast in a significant role in the movie.
+싫어하다,dislike,그는 저를 싫어해요.,He dislikes me.,혐오감을 느꼈어요.,I felt dislike.,나는 거짓말하는 사람들을 싫어합니다.,I dislike people who lie.
+적용하다,adjust,환경에 적응했어요.,I adjusted to the environment.,온도를 조정했어요.,I adjusted the temperature.,그녀는 새로운 직장에 빠르게 적응했습니다.,She quickly adjusted to her new workplace.
+연합,union,노동조합에 가입했어요.,I joined a union.,연합군이 승리했어요.,The union army won.,그들은 노동자들의 권리를 보호하기 위한 노동조합을 결성했습니다.,They formed a union to protect workers' rights.
+도기,pottery,도자기를 만들었어요.,I made pottery.,고대 도기가 전시되어 있어요.,Ancient pottery is on display.,그녀는 점토로 아름다운 도자기를 만드는 것을 좋아합니다.,She enjoys making beautiful pottery from clay.
+유적,remains,고대 유적을 발견했어요.,I discovered ancient remains.,그의 유해가 발견되었어요.,His remains were found.,고고학자들은 고대 도시의 유적을 발굴했습니다.,Archaeologists excavated the remains of an ancient city.
+외과의사,surgery,수술을 받았어요.,I had surgery.,외과의사가 수술했어요.,The surgeon performed surgery.,그녀는 복잡한 심장 수술을 성공적으로 마쳤습니다.,She successfully underwent complex heart surgery.
+철학,philosophy,철학을 공부해요.,I study philosophy.,그의 삶의 철학은 단순해요.,His philosophy of life is simple.,고대 그리스 철학은 서양 사상에 큰 영향을 미쳤습니다.,Ancient Greek philosophy greatly influenced Western thought.
+신화,myth,그것은 신화예요.,It's a myth.,그리스 신화를 읽었어요.,I read Greek myths.,많은 문화권에는 세상의 기원에 대한 고유한 신화가 있습니다.,Many cultures have their own myths about the origin of the world.
+주식,stock,주식을 샀어요.,I bought stocks.,재고가 많아요.,There is a lot of stock.,그 회사의 주가는 지난주에 급등했습니다.,The company's stock price surged last week.
+더미,pile,책 더미가 있어요.,There is a pile of books.,옷을 쌓았어요.,I piled up clothes.,그는 책상 위에 서류 더미를 쌓아두었습니다.,He had a pile of papers stacked on his desk.
+덫,trap,덫에 걸렸어요.,I fell into a trap.,동물을 가두었어요.,I trapped the animal.,그들은 숲에서 덫을 놓아 야생 동물을 잡았습니다.,They set a trap in the forest to catch wild animals.
+그늘,shade,나무 그늘에 앉았어요.,I sat in the shade of a tree.,색조가 달라요.,The shade is different.,그녀는 뜨거운 태양을 피해 그늘을 찾았습니다.,She sought shade to escape the hot sun.
+곡조,turn,아름다운 곡조예요.,It's a beautiful turn.,음조가 높아요.,The tone is high.,그녀는 노래의 멜로디를 완벽하게 연주했습니다.,She played the turn of the song perfectly.
+휴양지,resort,휴양지에 갔어요.,I went to a resort.,마지막 수단으로 사용했어요.,I resorted to it as a last resort.,그들은 여름 휴가를 위해 해변 휴양지를 선택했습니다.,They chose a beach resort for their summer vacation.
+진공청소기,vacuum,진공청소기로 청소했어요.,I vacuumed with a vacuum cleaner.,진공 상태예요.,It's a vacuum.,그녀는 거실을 진공청소기로 청소했습니다.,She vacuumed the living room.
+물들이다,dye,머리를 물들였어요.,I dyed my hair.,천을 물들였어요.,I dyed the fabric.,그녀는 옷을 파란색으로 염색했습니다.,She dyed her dress blue.
+끌다,drag,의자를 끌었어요.,I dragged the chair.,시간이 질질 끌렸어요.,Time dragged on.,그들은 무거운 상자를 방 반대편으로 끌었습니다.,They dragged the heavy box across the room.
+최고의,supreme,최고의 결정이었어요.,It was the supreme decision.,최고의 권위예요.,He has supreme authority.,대법원은 국가의 최고 법원입니다.,The Supreme Court is the supreme court of the nation.
+기계의,mechanical,기계적인 움직임이에요.,It's a mechanical movement.,기계적인 문제였어요.,It was a mechanical problem.,그는 기계적인 문제 해결에 능숙합니다.,He is skilled at solving mechanical problems.
+비참한,miserable,비참한 기분이었어요.,I felt miserable.,비참한 삶이었어요.,It was a miserable life.,그녀는 시험에 실패한 후 비참함을 느꼈습니다.,She felt miserable after failing the exam.
+쓴,bitter,맛이 썼어요.,It tasted bitter.,지독한 추위였어요.,It was a bitter cold.,그는 실패 후 쓰라린 경험을 했습니다.,He had a bitter experience after the failure.
+유망한,promising,유망한 학생이에요.,He is a promising student.,유망한 미래를 가지고 있어요.,She has a promising future.,그 젊은 과학자는 이 분야에서 매우 유망한 연구를 수행하고 있습니다.,The young scientist is conducting very promising research in this field.
+분별력있는,sensible,분별력 있는 사람이에요.,He is a sensible person.,합리적인 조언을 해줬어요.,She gave sensible advice.,그녀는 항상 상황에 대해 분별력 있는 접근 방식을 취합니다.,She always takes a sensible approach to situations.
+활기찬,lively,활기찬 분위기예요.,It's a lively atmosphere.,활기찬 아이예요.,He is a lively child.,그녀는 파티에서 가장 활기찬 사람이었습니다.,She was the most lively person at the party.
+액체,liquid,액체 상태예요.,It's in a liquid state.,액체를 마셨어요.,I drank the liquid.,물은 상온에서 액체 상태입니다.,Water is in a liquid state at room temperature.
+감염시키다,infect,바이러스가 감염시켰어요.,The virus infected.,병이 감염되었어요.,The disease infected.,그녀는 감염된 상처를 치료하기 위해 약을 복용했습니다.,She took medication to treat the infected wound.
+겁나게하다,terrify,그 이야기는 저를 겁나게 했어요.,The story terrified me.,무서운 꿈이었어요.,It was a terrifying dream.,그는 어둠 속에서 들려오는 소리에 겁을 먹었습니다.,He was terrified by the sounds coming from the dark.
+비난하다,scold,그는 저를 비난했어요.,He scolded me.,아이를 꾸짖었어요.,I scolded the child.,부모님은 그의 무례한 행동에 대해 그를 꾸짖었습니다.,His parents scolded him for his rude behavior.
+강화하다,strengthen,근육을 강화했어요.,I strengthened my muscles.,관계를 강화했어요.,I strengthened the relationship.,정부는 경제를 강화하기 위한 새로운 정책을 발표했습니다.,The government announced new policies to strengthen the economy.
+건너뛰다,skip,줄넘기를 건너뛰었어요.,I skipped rope.,페이지를 건너뛰었어요.,I skipped a page.,그녀는 아침 식사를 건너뛰고 바로 출근했습니다.,She skipped breakfast and went straight to work.
+빨리끌어당기다,tug,밧줄을 잡아당겼어요.,I tugged the rope.,빨리 끌어당겼어요.,I tugged quickly.,아이는 엄마의 옷을 잡아당겨 주의를 끌었습니다.,The child tugged at his mother's clothes to get her attention.
+손뼉을치다,clap,손뼉을 쳤어요.,I clapped my hands.,박수를 보냈어요.,I clapped.,청중은 연주가 끝난 후 열렬히 박수를 쳤습니다.,The audience clapped enthusiastically after the performance.
+자손,descendent,그는 왕의 자손이에요.,He is a descendent of the king.,우리는 조상의 자손이에요.,We are descendants of our ancestors.,그들은 고대 부족의 직계 후손입니다.,They are direct descendants of an ancient tribe.
+학생,pupil,저는 학생이에요.,I am a pupil.,초등학생이에요.,I am a primary school pupil.,그녀는 학교에서 가장 똑똑한 학생 중 한 명입니다.,She is one of the brightest pupils in the school.
+수염,beard,수염이 길어요.,He has a long beard.,수염을 길렀어요.,He grew a beard.,산타클로스는 길고 흰 수염을 가지고 있습니다.,Santa Claus has a long white beard.
+위원회,committee,위원회에 참석했어요.,I attended a committee meeting.,새로운 위원회를 만들었어요.,We formed a new committee.,그 위원회는 새로운 법안을 검토할 책임이 있습니다.,The committee is responsible for reviewing new legislation.
+탄수화물,carbohydrate,탄수화물을 섭취했어요.,I consumed carbohydrates.,탄수화물은 에너지원이에요.,Carbohydrates are a source of energy.,밥과 빵은 주요 탄수화물 공급원입니다.,Rice and bread are major sources of carbohydrates.
+돈,fortune,돈을 많이 벌었어요.,I made a fortune.,행운이 따랐어요.,Fortune favored me.,그는 주식 시장에서 큰돈을 벌었습니다.,He made a fortune in the stock market.
+출입구,entrance,출입구가 어디인가요?,Where is the entrance?,건물 입구에 서 있었어요.,I stood at the building entrance.,박물관 입구는 방문객들로 붐볐습니다.,The museum entrance was crowded with visitors.
+골목길,alley,골목길을 걸었어요.,I walked down the alley.,좁은 골목길이었어요.,It was a narrow alley.,그녀는 어두운 골목길을 지나 집으로 향했습니다.,She walked down the dark alley towards her home.
+식민지,colony,식민지를 건설했어요.,They established a colony.,새로운 식민지가 생겼어요.,A new colony was formed.,영국은 한때 세계 여러 지역에 식민지를 가지고 있었습니다.,Britain once had colonies in many parts of the world.
+경계,boundary,경계를 넘었어요.,I crossed the boundary.,국경선이 명확해요.,The boundary line is clear.,그들은 두 나라 사이의 경계를 표시했습니다.,They marked the boundary between the two countries.
+도착,arrival,도착했어요.,I arrived.,도착 시간이 늦었어요.,The arrival time was late.,그녀의 갑작스러운 도착은 모두를 놀라게 했습니다.,Her sudden arrival surprised everyone.
+결과,consequence,결과를 책임져야 해요.,You must take responsibility for the consequences.,심각한 결과였어요.,It was a serious consequence.,그녀의 무모한 결정은 예상치 못한 결과를 초래했습니다.,Her reckless decision led to unforeseen consequences.
+싼물건,bargain,싼 물건을 샀어요.,I bought a bargain.,흥정했어요.,I bargained.,그녀는 세일 기간 동안 좋은 물건을 발견했습니다.,She found a good bargain during the sale.
+남용,abuse,권력을 남용했어요.,He abused his power.,아동 학대가 심각해요.,Child abuse is serious.,그는 자신의 지위를 남용하여 개인적인 이득을 취했습니다.,He abused his position to gain personal advantage.
+으르렁거리다,roar,사자가 으르렁거렸어요.,The lion roared.,큰 소리였어요.,It was a loud roar.,군중의 환호성이 경기장을 가득 채웠습니다.,The roar of the crowd filled the stadium.
+혹독한,harsh,혹독한 날씨였어요.,It was harsh weather.,혹독한 비판을 받았어요.,He received harsh criticism.,그들은 사막의 혹독한 환경에서 살아남았습니다.,They survived in the harsh environment of the desert.
+실제의,actual,실제 상황이었어요.,It was an actual situation.,실제로는 달랐어요.,It was different in actual fact.,그녀는 실제 경험을 바탕으로 이야기를 썼습니다.,She wrote the story based on actual experiences.
+금지하다,ban,흡연을 금지했어요.,They banned smoking.,금지된 구역이었어요.,It was a banned area.,정부는 공공장소에서의 흡연을 금지했습니다.,The government banned smoking in public places.
+열망하는,eager,열망하는 눈빛이었어요.,He had eager eyes.,배우기를 열망해요.,I am eager to learn.,그녀는 새로운 도전을 시작하기를 열망했습니다.,She was eager to embark on a new challenge.
+예보하다,forecast,날씨를 예보했어요.,They forecast the weather.,일기 예보가 맞았어요.,The weather forecast was correct.,경제학자들은 내년에 경제 성장을 예보했습니다.,Economists forecast economic growth for next year.
+근면한,diligent,근면한 학생이에요.,He is a diligent student.,그는 근면하게 일해요.,He works diligently.,그녀는 학업에 매우 근면하여 항상 좋은 성적을 받습니다.,She is very diligent in her studies and always gets good grades.
+심리학,psychology,심리학을 공부해요.,I study psychology.,심리학은 흥미로워요.,Psychology is interesting.,그녀는 인간 행동의 심리학에 매료되었습니다.,She was fascinated by the psychology of human behavior.
+할수있는,capable,그는 할 수 있어요.,He is capable.,능력 있는 사람이에요.,He is a capable person.,그녀는 어떤 어려운 문제도 해결할 수 있는 능력이 있습니다.,She is capable of solving any difficult problem.
+정치학,politics,정치학을 공부해요.,I study politics.,정치는 복잡해요.,Politics is complicated.,그는 정치에 대한 깊은 이해를 가지고 있습니다.,He has a deep understanding of politics.
+창백한,pale,얼굴이 창백했어요.,His face was pale.,색깔이 창백해요.,The color is pale.,그녀는 충격으로 인해 얼굴이 창백해졌습니다.,Her face turned pale from shock.
+전망,prospect,전망이 밝아요.,The prospect is bright.,좋은 전망을 가지고 있어요.,He has a good prospect.,그 회사는 미래에 대한 좋은 전망을 가지고 있습니다.,The company has good prospects for the future.
+추상적인,abstract,추상적인 그림이에요.,It's an abstract painting.,추상적인 개념이에요.,It's an abstract concept.,그녀는 자신의 감정을 추상적인 형태로 표현하는 것을 좋아합니다.,She likes to express her emotions in an abstract form.
+긴장,strain,긴장감이 높아요.,The strain is high.,눈에 무리가 갔어요.,I strained my eyes.,그 프로젝트는 팀에 상당한 부담을 주었습니다.,The project put a considerable strain on the team.
+거주자,resident,이 아파트의 거주자예요.,I am a resident of this apartment.,그는 영주권자예요.,He is a permanent resident.,그 마을의 모든 거주자들은 새로운 계획에 대해 투표했습니다.,All residents of the village voted on the new plan.
+장관,minister,외교부 장관이에요.,He is the Minister of Foreign Affairs.,교회 목사님이에요.,He is a church minister.,그 장관은 국가의 새로운 경제 정책을 발표했습니다.,The minister announced the nation's new economic policy.
+백만장자,millionaire,그는 백만장자예요.,He is a millionaire.,백만장자가 되고 싶어요.,I want to be a millionaire.,그는 젊은 나이에 자수성가한 백만장자가 되었습니다.,He became a self-made millionaire at a young age.
+의회,assembly,의회에 참석했어요.,I attended the assembly.,자동차 조립을 했어요.,I assembled the car.,학생회는 새로운 규칙에 대해 논의하기 위해 모였습니다.,The student assembly met to discuss the new rules.
+세균,germ,세균이 많아요.,There are many germs.,세균을 죽였어요.,I killed the germs.,손을 자주 씻는 것은 세균의 확산을 막는 데 도움이 됩니다.,Washing hands frequently helps prevent the spread of germs.
+입자,particle,작은 입자를 봤어요.,I saw a small particle.,먼지 입자가 날렸어요.,Dust particles flew.,과학자들은 아원자 입자의 행동을 연구합니다.,Scientists study the behavior of subatomic particles.
+조류,tide,썰물과 밀물이 있어요.,There are ebb and flow tides.,조류가 강해요.,The tide is strong.,밀물은 해안으로 바닷물을 밀어 올립니다.,The tide pushes the seawater towards the coast.
+전설,legend,전설적인 인물이에요.,He is a legendary figure.,전설적인 이야기를 들었어요.,I heard a legendary story.,그 마을은 고대 전설로 유명합니다.,The village is famous for its ancient legends.
+걸작,masterpiece,이것은 걸작이에요.,This is a masterpiece.,예술 작품이에요.,It's a work of art.,그 화가의 마지막 작품은 그의 걸작으로 여겨집니다.,The artist's last work is considered his masterpiece.
+의견,opinion,의견을 말했어요.,I expressed my opinion.,다른 의견이 있어요.,I have a different opinion.,그녀는 자신의 의견을 자유롭게 표현하는 것을 두려워하지 않았습니다.,She was not afraid to express her opinion freely.
+장애물,obstacle,장애물을 넘었어요.,I overcame an obstacle.,어려운 장애물이었어요.,It was a difficult obstacle.,그들은 목표 달성에 많은 장애물에 직면했습니다.,They faced many obstacles in achieving their goals.
+곤란,hardship,곤란을 겪었어요.,I experienced hardship.,어려운 시기였어요.,It was a time of hardship.,그녀는 가난과 역경 속에서 많은 어려움을 겪었습니다.,She endured many hardships in poverty and adversity.
+작별,farewell,작별 인사를 했어요.,I said farewell.,작별 파티를 했어요.,We had a farewell party.,그녀는 친구들에게 작별 인사를 하고 새로운 여정을 시작했습니다.,She bid farewell to her friends and embarked on a new journey.
+장례식,funeral,장례식에 참석했어요.,I attended a funeral.,슬픈 장례식이었어요.,It was a sad funeral.,그녀는 돌아가신 할머니의 장례식에 참석했습니다.,She attended her deceased grandmother's funeral.
+살인,murder,살인을 저질렀어요.,He committed murder.,살인 사건이 발생했어요.,A murder occurred.,경찰은 잔인한 살인 사건을 조사하고 있습니다.,The police are investigating a brutal murder.
+터지다,burst,풍선이 터졌어요.,The balloon burst.,웃음이 터져 나왔어요.,Laughter burst out.,그녀는 기쁨에 겨워 눈물을 터뜨렸습니다.,She burst into tears of joy.
+생태계,ecosystem,생태계를 보호해야 해요.,We should protect the ecosystem.,숲은 복잡한 생태계예요.,The forest is a complex ecosystem.,열대우림은 지구상에서 가장 풍부한 생태계 중 하나입니다.,Rainforests are one of the richest ecosystems on Earth.
+우주선,spacecraft,우주선을 발사했어요.,They launched a spacecraft.,새로운 우주선이에요.,It's a new spacecraft.,그 우주선은 화성 탐사를 위해 발사되었습니다.,The spacecraft was launched to explore Mars.
+혜성,comet,혜성을 봤어요.,I saw a comet.,혜성은 아름다워요.,Comets are beautiful.,그 혜성은 수십 년 만에 처음으로 지구에 접근했습니다.,The comet approached Earth for the first time in decades.
+화학,chemistry,화학을 공부해요.,I study chemistry.,화학 실험을 했어요.,I did a chemistry experiment.,그녀는 유기 화학 분야의 전문가입니다.,She is an expert in organic chemistry.
+구리,cooper,구리로 만들었어요.,It's made of copper.,구리는 전기가 잘 통해요.,Copper conducts electricity well.,구리는 전선과 배관에 널리 사용됩니다.,Copper is widely used in electrical wiring and plumbing.
+서랍,drawer,서랍을 열었어요.,I opened the drawer.,서랍에 물건을 넣었어요.,I put things in the drawer.,그녀는 서랍에서 양말 한 켤레를 꺼냈습니다.,She pulled a pair of socks from the drawer.
+위원회,council,시의회에 참석했어요.,I attended the city council.,학생회가 있어요.,There is a student council.,시의회는 새로운 도시 개발 계획을 승인했습니다.,The city council approved the new urban development plan.
+지역,district,이 지역은 조용해요.,This district is quiet.,학교 구역이 넓어요.,The school district is large.,그들은 새로운 상업 지구에 투자하기로 결정했습니다.,They decided to invest in the new commercial district.
+행위,deed,좋은 행위를 했어요.,I did a good deed.,그의 행위는 칭찬받을 만해요.,His deed is commendable.,그녀의 친절한 행위는 많은 사람들에게 영감을 주었습니다.,Her kind deed inspired many people.
+명성,fame,그는 명성이 높아요.,He has great fame.,명성을 얻고 싶어요.,I want to gain fame.,그녀는 자신의 예술적 재능으로 국제적인 명성을 얻었습니다.,She gained international fame for her artistic talent.
+붕괴,breakdown,시스템이 붕괴되었어요.,The system had a breakdown.,신경 쇠약이 왔어요.,He had a nervous breakdown.,협상은 합의에 이르지 못하고 결국 결렬되었습니다.,The negotiations broke down and ultimately collapsed.
+공간,dimension,다른 공간에 있어요.,It's in a different dimension.,3차원 공간이에요.,It's a three-dimensional space.,그녀는 예술 작품에 깊이와 차원을 더했습니다.,She added depth and dimension to her artwork.
+불꽃,flame,불꽃이 타올랐어요.,The flame burned brightly.,촛불이 흔들렸어요.,The candle flame flickered.,캠프파이어의 불꽃은 밤하늘을 밝게 비추었습니다.,The flames of the campfire brightly illuminated the night sky.
+조언,counsel,조언을 구했어요.,I sought counsel.,그는 저에게 조언했어요.,He counseled me.,그녀는 어려운 결정에 대해 변호사에게 조언을 구했습니다.,She sought counsel from her lawyer regarding a difficult decision.
+주장하다,urge,그는 저에게 가라고 주장했어요.,He urged me to go.,강한 충동을 느꼈어요.,I felt a strong urge.,그녀는 모든 시민들에게 투표에 참여할 것을 촉구했습니다.,She urged all citizens to participate in the election.
+노동력,workforce,노동력이 부족해요.,There is a shortage of workforce.,숙련된 노동력이 필요해요.,We need a skilled workforce.,그 회사는 생산성을 높이기 위해 노동력을 확장했습니다.,The company expanded its workforce to increase productivity.
+왕조,dynasty,고대 왕조를 연구했어요.,I studied an ancient dynasty.,왕조가 무너졌어요.,The dynasty fell.,그 왕조는 수세기 동안 이 나라를 통치했습니다.,The dynasty ruled the country for centuries.
+괴물,monster,괴물을 봤어요.,I saw a monster.,무서운 괴물이었어요.,It was a scary monster.,그 영화는 바다 깊은 곳에 사는 거대한 괴물에 대한 이야기입니다.,The movie is about a giant monster living in the deep sea.
+체육관,gym,체육관에서 운동했어요.,I exercised at the gym.,헬스장에 갔어요.,I went to the gym.,그녀는 매일 아침 체육관에서 운동합니다.,She works out at the gym every morning.
+창고,warehouse,창고에 물건을 보관했어요.,I stored items in the warehouse.,큰 창고였어요.,It was a big warehouse.,그 회사는 제품을 보관하기 위해 대형 창고를 임대했습니다.,The company leased a large warehouse to store its products.
+거리,avenue,넓은 거리를 걸었어요.,I walked down a wide avenue.,새로운 거리가 생겼어요.,A new avenue was built.,그들은 나무가 늘어선 아름다운 거리를 따라 걸었습니다.,They walked along a beautiful tree-lined avenue.
+화산,volcano,화산이 폭발했어요.,The volcano erupted.,활화산이에요.,It's an active volcano.,화산 폭발은 주변 지역에 엄청난 피해를 입혔습니다.,The volcanic eruption caused immense damage to the surrounding areas.
+대야,basin,대야에 물을 받았어요.,I filled the basin with water.,세면대가 있어요.,There is a wash basin.,그 산맥은 넓은 강 유역을 둘러싸고 있습니다.,The mountain range surrounds a large river basin.
+장벽,barrier,장벽을 넘었어요.,I overcame a barrier.,언어 장벽이 있었어요.,There was a language barrier.,그들은 성공을 가로막는 장벽을 허물기 위해 노력했습니다.,They worked to break down barriers to success.
+요금,fee,입장료를 냈어요.,I paid the entrance fee.,수수료가 비싸요.,The fee is high.,그녀는 변호사에게 법률 자문에 대한 수수료를 지불했습니다.,She paid a fee to the lawyer for legal consultation.
+삼각형,triangle,삼각형을 그렸어요.,I drew a triangle.,삼각형 모양이에요.,It's a triangle shape.,그들은 삼각형 모양의 땅을 발견했습니다.,They discovered a triangle-shaped piece of land.
+결합,fusion,두 가지를 결합했어요.,I fused two things.,핵융합 에너지를 연구해요.,I study nuclear fusion energy.,그들의 음악은 전통과 현대 스타일의 독특한 융합입니다.,Their music is a unique fusion of traditional and modern styles.
+방아쇠,trigger,방아쇠를 당겼어요.,I pulled the trigger.,사건을 유발했어요.,It triggered the incident.,그녀의 말은 그의 분노를 촉발시켰습니다.,Her words triggered his anger.
+맹세,vow,맹세했어요.,I made a vow.,결혼 맹세를 했어요.,I made wedding vows.,그들은 서로에게 영원한 사랑을 맹세했습니다.,They made a vow of eternal love to each other.
+껍질을벗기다,peel,사과 껍질을 벗겼어요.,I peeled an apple.,껍질이 벗겨졌어요.,The peel came off.,그녀는 오렌지 껍질을 벗겨 과육을 먹었습니다.,She peeled the orange and ate the fruit.
+외과의사,surgeon,외과의사가 수술했어요.,The surgeon performed surgery.,유명한 외과의사예요.,He is a famous surgeon.,그 외과의사는 복잡한 수술을 성공적으로 마쳤습니다.,The surgeon successfully completed a complex operation.
+동정,sympathy,동정을 느꼈어요.,I felt sympathy.,그녀에게 동정심을 보냈어요.,I showed sympathy for her.,그녀는 친구의 어려움에 깊은 동정심을 느꼈습니다.,She felt deep sympathy for her friend's difficulties.
+갈증,thirst,갈증을 느꼈어요.,I felt thirst.,목이 말라요.,I am thirsty.,사막에서 그는 극심한 갈증으로 고통받았습니다.,In the desert, he suffered from extreme thirst.
+영토,territory,영토를 확장했어요.,They expanded their territory.,분쟁 지역이에요.,It's a disputed territory.,그 나라는 이웃 국가와 영토 분쟁을 겪고 있습니다.,The country has a territorial dispute with its neighbor.
+재통일,reunification,남북 통일을 원해요.,I want reunification of North and South Korea.,통일은 중요해요.,Reunification is important.,그들은 분단된 가족의 재통일을 염원합니다.,They long for the reunification of divided families.
+저장,storage,음식을 저장했어요.,I stored food.,저장 공간이 부족해요.,There is not enough storage space.,이 창고는 대량의 물품을 저장할 수 있습니다.,This warehouse provides storage for a large quantity of goods.
+회기,session,회의가 시작됐어요.,The session started.,훈련 세션이 있었어요.,There was a training session.,의회는 새로운 법안을 논의하기 위해 특별 회기를 가졌습니다.,The parliament held a special session to discuss the new bill.
+장학금,scholarship,장학금을 받았어요.,I received a scholarship.,장학금으로 공부해요.,I study with a scholarship.,그녀는 뛰어난 학업 성적으로 전액 장학금을 받았습니다.,She received a full scholarship for her excellent academic performance.
+특권,privilege,특권을 누렸어요.,I enjoyed a privilege.,특권층이에요.,He is from a privileged class.,그녀는 명문 대학에서 공부할 특권을 가졌습니다.,She had the privilege of studying at a prestigious university.
+경쟁자,rival,경쟁자가 많아요.,I have many rivals.,그는 저의 경쟁자예요.,He is my rival.,두 회사는 시장에서 치열한 경쟁자입니다.,The two companies are fierce rivals in the market.
+후원자,sponsor,후원자를 찾았어요.,I found a sponsor.,그는 행사를 후원했어요.,He sponsored the event.,그 회사는 지역 스포츠 팀의 주요 후원자입니다.,The company is a major sponsor of the local sports team.
+줄기,stem,식물 줄기가 길어요.,The plant stem is long.,문제는 여기서 비롯돼요.,The problem stems from here.,그녀의 모든 문제는 어린 시절의 트라우마에서 비롯되었습니다.,All her problems stemmed from childhood trauma.
+고리,hook,고리에 걸었어요.,I hung it on a hook.,낚시 바늘을 사용했어요.,I used a fishing hook.,그는 그림을 벽에 걸기 위해 고리를 사용했습니다.,He used a hook to hang the picture on the wall.
+마구,harness,말에게 마구를 채웠어요.,I harnessed the horse.,에너지를 활용해야 해요.,We need to harness energy.,그들은 바람의 힘을 활용하여 전기를 생산했습니다.,They harnessed the power of the wind to generate electricity.
+줄거리,plot,영화 줄거리가 복잡해요.,The movie plot is complicated.,음모를 꾸몄어요.,They plotted a conspiracy.,그 소설의 줄거리는 독자들을 끝까지 긴장하게 만듭니다.,The novel's plot keeps readers on the edge of their seats until the very end.
+수녀,nun,수녀님을 만났어요.,I met a nun.,수녀원에 살아요.,She lives in a nunnery.,그녀는 평생을 봉사하며 수녀로 살았습니다.,She lived her life as a nun, dedicated to service.
+미이라,mummy,미이라를 봤어요.,I saw a mummy.,고대 미이라예요.,It's an ancient mummy.,고고학자들은 고대 이집트 미라를 발견했습니다.,Archaeologists discovered an ancient Egyptian mummy.
+기념비,monument,기념비를 세웠어요.,They erected a monument.,역사적인 기념비예요.,It's a historical monument.,그 도시는 전쟁 영웅들을 기리는 기념비를 가지고 있습니다.,The city has a monument dedicated to its war heroes.
+낙원,paradise,낙원에 살고 싶어요.,I want to live in paradise.,지상 낙원이에요.,It's a paradise on Earth.,그 섬은 아름다운 해변과 맑은 물로 진정한 낙원입니다.,The island is a true paradise with beautiful beaches and clear waters.
+자비,mercy,자비를 베풀었어요.,He showed mercy.,자비로운 마음을 가졌어요.,She has a merciful heart.,판사는 피고인에게 자비를 베풀었습니다.,The judge showed mercy to the defendant.
+악몽,nightmare,악몽을 꿨어요.,I had a nightmare.,끔찍한 악몽이었어요.,It was a terrible nightmare.,그녀는 전쟁의 악몽에 시달렸습니다.,She was haunted by the nightmare of war.
+신경,nerve,신경이 예민해요.,My nerves are sensitive.,용기를 냈어요.,I had the nerve.,그는 중요한 프레젠테이션 전에 긴장했습니다.,He had nerves before the important presentation.
+영양분,nutrition,영양분이 풍부한 음식을 먹었어요.,I ate nutritious food.,영양분이 중요해요.,Nutrition is important.,균형 잡힌 영양은 건강한 삶에 필수적입니다.,Balanced nutrition is essential for a healthy life.
+수분,moisture,수분이 많아요.,There is a lot of moisture.,피부에 수분을 공급해야 해요.,You need to moisturize your skin.,이 식물은 성장하기 위해 많은 수분을 필요로 합니다.,This plant requires a lot of moisture to grow.
+오토바이,motorcycle,오토바이를 탔어요.,I rode a motorcycle.,새로운 오토바이를 샀어요.,I bought a new motorcycle.,그는 오토바이를 타고 전국을 여행했습니다.,He traveled across the country on his motorcycle.
+결과,outcome,결과가 좋았어요.,The outcome was good.,최종 결과예요.,It's the final outcome.,그들의 노력은 긍정적인 결과로 이어졌습니다.,Their efforts led to a positive outcome.
+천년,millennium,천년 동안 살았어요.,I lived for a millennium.,새로운 천년이 시작됐어요.,A new millennium began.,새로운 천년은 새로운 희망과 도전을 가져왔습니다.,The new millennium brought new hopes and challenges.
+일어나다,arise,문제가 발생했어요.,A problem arose.,새로운 기회가 생겼어요.,New opportunities arose.,예상치 못한 상황이 발생하면 침착하게 대처해야 합니다.,When unexpected situations arise, you must deal with them calmly.
+동안에,meantime,그 동안에 저는 기다렸어요.,In the meantime, I waited.,그 동안에 무엇을 할까요?,What should I do in the meantime?,그는 회의를 준비하는 동안, 그녀는 보고서를 작성했습니다.,In the meantime, while he prepared for the meeting, she wrote the report.
+개척자,pioneer,그는 개척자예요.,He is a pioneer.,새로운 분야를 개척했어요.,He pioneered a new field.,그녀는 여성 과학 분야의 선구자였습니다.,She was a pioneer in the field of women in science.
+역사가,historian,역사가를 만났어요.,I met a historian.,유명한 역사가예요.,He is a famous historian.,그 역사가들은 고대 문명의 역사를 연구합니다.,The historians study the history of ancient civilizations.
+지리,geography,지리를 공부해요.,I study geography.,세계 지리가 어려워요.,World geography is difficult.,그녀는 세계 지리에 대한 깊은 지식을 가지고 있습니다.,She has a deep knowledge of world geography.
+수소,hydrogen,수소는 가스예요.,Hydrogen is a gas.,수소 에너지를 연구해요.,I study hydrogen energy.,물은 수소와 산소로 이루어져 있습니다.,Water is composed of hydrogen and oxygen.
+용암,lava,용암이 흘러나왔어요.,Lava flowed out.,화산 용암이에요.,It's volcanic lava.,화산 폭발 후 용암이 산비탈을 따라 흘러내렸습니다.,After the volcanic eruption, lava flowed down the mountainside.
+가축,livestock,가축을 길러요.,I raise livestock.,가축 농장이 있어요.,There is a livestock farm.,그 농부는 가축을 기르며 생계를 유지합니다.,The farmer earns his living by raising livestock.
+어업,fishery,어업이 중요해요.,Fishery is important.,어업 산업이 발전하고 있어요.,The fishery industry is developing.,그 나라는 어업에 크게 의존합니다.,The country heavily relies on its fishery.
+관개,irrigation,관개 시설을 만들었어요.,I built irrigation facilities.,농업에 관개가 중요해요.,Irrigation is important for agriculture.,새로운 관개 시스템은 농작물 생산량을 크게 늘렸습니다.,The new irrigation system significantly increased crop yields.
+기관,institution,교육 기관이에요.,It's an educational institution.,새로운 기관을 설립했어요.,I established a new institution.,그들은 사회적 정의를 증진하기 위한 기관을 설립했습니다.,They established an institution to promote social justice.
+틀,frame,사진 틀을 만들었어요.,I made a photo frame.,창문 틀이 낡았어요.,The window frame is old.,그는 그림을 나무 틀에 넣었습니다.,He placed the painting in a wooden frame.
+논리적인,logic,논리적인 생각이에요.,It's a logical thought.,논리가 중요해요.,Logic is important.,그녀는 문제를 해결하는 데 논리적인 접근 방식을 사용했습니다.,She used a logical approach to solve the problem.
+선의,goodwill,선의를 보여줬어요.,He showed goodwill.,선의의 경쟁이었어요.,It was a goodwill competition.,그들은 상호 선의와 이해를 바탕으로 협상했습니다.,They negotiated based on mutual goodwill and understanding.
+공포,horror,공포 영화를 봤어요.,I watched a horror movie.,공포를 느꼈어요.,I felt horror.,그는 전쟁의 공포를 경험했습니다.,He experienced the horrors of war.
+유산,heritage,문화유산을 보존해야 해요.,We should preserve cultural heritage.,유산이 중요해요.,Heritage is important.,그 도시는 풍부한 역사적 유산을 자랑합니다.,The city boasts a rich historical heritage.
+산출하다,yield,많은 곡물을 산출했어요.,It yielded a lot of grain.,권리에 양보했어요.,I yielded to his right.,그들의 노력은 풍부한 수확을 산출했습니다.,Their efforts yielded a rich harvest.
+숙어,idiom,숙어를 배웠어요.,I learned an idiom.,이 숙어의 의미는 무엇인가요?,What is the meaning of this idiom?,그녀는 영어 숙어를 유창하게 사용합니다.,She uses English idioms fluently.
+제국,empire,로마 제국을 연구했어요.,I studied the Roman Empire.,제국이 무너졌어요.,The empire fell.,몽골 제국은 역사상 가장 큰 제국 중 하나였습니다.,The Mongol Empire was one of the largest empires in history.
+운명,fate,운명을 믿어요.,I believe in fate.,그것은 운명이었어요.,It was fate.,그녀는 자신의 운명을 스스로 개척하기로 결정했습니다.,She decided to forge her own fate.
+깃털,feather,새 깃털을 주웠어요.,I picked up a bird feather.,깃털은 가벼워요.,Feathers are light.,그 새는 아름다운 깃털을 가지고 있습니다.,The bird has beautiful feathers.
+진화,evolution,진화론을 배웠어요.,I learned about evolution.,인류는 진화하고 있어요.,Humanity is evolving.,다윈의 진화론은 생물학에 혁명을 가져왔습니다.,Darwin's theory of evolution revolutionized biology.
+발효,fermentation,발효 음식을 만들었어요.,I made fermented food.,발효 과정이 중요해요.,The fermentation process is important.,빵을 만들기 위해 효모를 사용하여 반죽을 발효시킵니다.,To make bread, yeast is used to ferment the dough.
+가뭄,drought,가뭄이 심해요.,The drought is severe.,가뭄으로 농작물이 죽었어요.,Crops died due to drought.,장기간의 가뭄은 농업에 심각한 피해를 입혔습니다.,A prolonged drought caused severe damage to agriculture.
+소풍,excursion,소풍을 갔어요.,I went on an excursion.,짧은 여행이었어요.,It was a short excursion.,그들은 주말에 시골로 짧은 소풍을 떠났습니다.,They took a short excursion to the countryside for the weekend.
+백과사전,encyclopedia,백과사전을 읽었어요.,I read an encyclopedia.,정보가 많아요.,It has a lot of information.,그녀는 백과사전에서 특정 주제에 대한 정보를 찾아보았습니다.,She looked up information on a specific topic in the encyclopedia.
+지름,diameter,원의 지름을 쟀어요.,I measured the diameter of the circle.,지름이 길어요.,The diameter is long.,그 나무의 지름은 1미터가 넘습니다.,The tree's diameter is over one meter.
+정육면체,cube,정육면체를 만들었어요.,I made a cube.,주사위는 정육면체예요.,A dice is a cube.,그 아이는 나무 블록으로 정육면체를 만들었습니다.,The child built a cube with wooden blocks.
+원뿔,cone,원뿔을 그렸어요.,I drew a cone.,아이스크림 콘을 먹었어요.,I ate an ice cream cone.,도로 작업자들은 도로에 원뿔을 놓아 교통을 유도했습니다.,Road workers placed cones on the road to direct traffic.
+피드백,feedback,피드백을 받았어요.,I received feedback.,피드백이 중요해요.,Feedback is important.,그녀는 자신의 발표에 대한 건설적인 피드백을 환영했습니다.,She welcomed constructive feedback on her presentation.
+감소하다,decline,인구가 감소했어요.,The population declined.,건강이 나빠졌어요.,His health declined.,그 회사의 수익은 지난 몇 년간 꾸준히 감소했습니다.,The company's profits have been steadily declining over the past few years.
+벗기다,strip,옷을 벗겼어요.,I stripped off my clothes.,테이프를 벗겼어요.,I stripped off the tape.,그는 오래된 페인트를 벗겨내기 위해 벽을 벗겼습니다.,He stripped the wall to remove the old paint.
+의심하다,suspect,그를 의심했어요.,I suspected him.,용의자를 체포했어요.,They arrested the suspect.,경찰은 그가 범죄에 연루되었다고 의심합니다.,The police suspect him of being involved in the crime.
+고고학자,archaeologist,고고학자를 만났어요.,I met an archaeologist.,고대 유적을 발굴해요.,Archaeologists excavate ancient ruins.,그 고고학자들은 고대 문명의 유적을 발굴했습니다.,The archaeologists excavated the remains of an ancient civilization.
+변호사,attorney,변호사를 고용했어요.,I hired an attorney.,유명한 변호사예요.,He is a famous attorney.,그녀는 법률 문제에 대해 변호사와 상담했습니다.,She consulted with an attorney about her legal issues.
+소매,sleeve,소매가 길어요.,The sleeve is long.,셔츠 소매를 걷어 올렸어요.,I rolled up my shirt sleeves.,그녀는 셔츠 소매를 걷어 올리고 일하기 시작했습니다.,She rolled up her sleeves and started to work.
+애벌레,caterpillar,애벌레를 봤어요.,I saw a caterpillar.,애벌레는 나비가 돼요.,A caterpillar becomes a butterfly.,애벌레는 나비로 변태하기 전에 잎을 먹고 자랍니다.,The caterpillar eats leaves and grows before transforming into a butterfly.
+시리얼,cereal,시리얼을 먹었어요.,I ate cereal.,곡물로 만들었어요.,It's made of cereal grains.,아침 식사로 시리얼을 먹는 것을 좋아합니다.,I like to eat cereal for breakfast.
+진흙,mud,진흙탕에 빠졌어요.,I fell into the mud.,진흙이 많아요.,There is a lot of mud.,비가 온 후 도로는 진흙으로 뒤덮였습니다.,After the rain, the road was covered in mud.
+절벽,cliff,절벽에 서 있었어요.,I stood on the cliff.,절벽이 높아요.,The cliff is high.,그들은 절벽 가장자리에 서서 아래 바다를 바라보았습니다.,They stood on the edge of the cliff, looking at the sea below.
+집,cabin,오두막집에 살아요.,I live in a cabin.,선실이 좁아요.,The cabin is small.,그들은 숲 속의 아늑한 오두막집에서 휴가를 보냈습니다.,They spent their vacation in a cozy cabin in the woods.
+건축,architecture,건축을 공부해요.,I study architecture.,아름다운 건축물이에요.,It's beautiful architecture.,그 도시는 독특한 현대 건축물로 유명합니다.,The city is famous for its unique modern architecture.
+민주주의,democracy,민주주의 국가예요.,It's a democratic country.,민주주의는 중요해요.,Democracy is important.,민주주의는 시민들에게 발언권을 부여합니다.,Democracy grants citizens a voice.
+관리,administration,정부 행정부에서 일해요.,I work in government administration.,관리 능력이 뛰어나요.,His administration skills are excellent.,새로운 행정부는 경제 개혁을 약속했습니다.,The new administration promised economic reforms.
+가정,assumption,가정을 했어요.,I made an assumption.,그의 가정은 틀렸어요.,His assumption was wrong.,그녀는 그가 동의할 것이라는 가정하에 계획을 세웠습니다.,She made plans under the assumption that he would agree.
+부담,burden,부담이 커요.,The burden is heavy.,그는 부담을 느꼈어요.,He felt a burden.,그녀는 가족의 재정적 부담을 짊어졌습니다.,She carried the financial burden of her family.
+광내다,polish,신발을 광냈어요.,I polished my shoes.,가구를 광냈어요.,I polished the furniture.,그녀는 은 식기를 광내어 빛나게 했습니다.,She polished the silver cutlery until it shone.
+씨를뿌리다,sow,씨를 뿌렸어요.,I sowed seeds.,희망을 심었어요.,I sowed hope.,농부는 봄에 밭에 씨앗을 뿌립니다.,The farmer sows seeds in the field in spring.
+대변인,spokesperson,대변인을 만났어요.,I met a spokesperson.,정부 대변인이에요.,He is a government spokesperson.,그녀는 회사의 공식 대변인으로 활동합니다.,She acts as the official spokesperson for the company.
+2학년,sophomore,저는 2학년이에요.,I am a sophomore.,2학년이 됐어요.,I became a sophomore.,그는 대학교 2학년으로서 새로운 학년을 시작했습니다.,He began his new academic year as a sophomore in college.
+유치원,kindergarten,유치원에 다녀요.,I go to kindergarten.,유치원 선생님이에요.,I am a kindergarten teacher.,그녀는 유치원에서 아이들을 가르치는 것을 좋아합니다.,She enjoys teaching children in kindergarten.
+부족,tribe,부족에 속해요.,I belong to a tribe.,원시 부족이에요.,It's a primitive tribe.,그들은 고대 부족의 전통을 보존하고 있습니다.,They preserve the traditions of an ancient tribe.
+산들바람,breeze,산들바람이 불었어요.,A breeze blew.,시원한 산들바람이었어요.,It was a cool breeze.,부드러운 산들바람이 나뭇잎 사이로 불어왔습니다.,A gentle breeze rustled through the leaves.
+경치,scenery,경치가 아름다워요.,The scenery is beautiful.,산 경치를 좋아해요.,I like mountain scenery.,그들은 여행 내내 아름다운 시골 풍경을 즐겼습니다.,They enjoyed the beautiful countryside scenery throughout their trip.
+습지,wetland,습지를 보호해야 해요.,We should protect wetlands.,습지는 생물 다양성이 풍부해요.,Wetlands are rich in biodiversity.,이 습지는 다양한 철새들의 중요한 서식지입니다.,This wetland is an important habitat for various migratory birds.
+정직,honesty,정직이 최선의 정책이에요.,Honesty is the best policy.,그는 정직한 사람이에요.,He is an honest person.,그녀의 정직함은 모든 사람에게 존경받았습니다.,Her honesty was respected by everyone.
+절약,thrift,절약을 실천해요.,I practice thrift.,절약하는 습관을 길렀어요.,I developed a habit of thrift.,그녀는 절약을 통해 재정적 안정을 이루었습니다.,She achieved financial stability through thrift.
+기질,temper,그는 성질이 급해요.,He has a quick temper.,화를 참았어요.,I controlled my temper.,그녀는 화를 잘 내지 않는 차분한 기질을 가지고 있습니다.,She has a calm temper and rarely gets angry.
+서명,signature,서명을 했어요.,I signed my signature.,친필 서명이에요.,It's an autograph signature.,그는 계약서에 자신의 서명을 남겼습니다.,He left his signature on the contract.
+거래,transaction,거래를 완료했어요.,I completed the transaction.,안전한 거래였어요.,It was a safe transaction.,모든 금융 거래는 기록되어야 합니다.,All financial transactions must be recorded.
+맛,flavor,맛이 좋아요.,The flavor is good.,풍미가 깊어요.,The flavor is rich.,이 요리는 독특한 맛과 향을 가지고 있습니다.,This dish has a unique flavor and aroma.
+경사로,slope,경사로를 올라갔어요.,I walked up the slope.,스키 슬로프가 가파라요.,The ski slope is steep.,그들은 언덕의 가파른 경사면을 올라갔습니다.,They ascended the steep slope of the hill.
+순항하다,cruise,배가 순항했어요.,The ship cruised.,크루즈 여행을 갔어요.,I went on a cruise.,그들은 지중해를 따라 호화로운 크루즈 여행을 즐겼습니다.,They enjoyed a luxurious cruise along the Mediterranean Sea.
+프리랜서,freelancer,프리랜서로 일해요.,I work as a freelancer.,프리랜서 작가예요.,I am a freelance writer.,그녀는 유연한 근무 시간을 위해 프리랜서로 일하기로 결정했습니다.,She decided to work as a freelancer for flexible hours.
+턱,jaw,턱이 아파요.,My jaw hurts.,턱을 다쳤어요.,I injured my jaw.,그는 화가 나서 턱을 꽉 다물었습니다.,He clenched his jaw in anger.
+설교,sermon,설교를 들었어요.,I listened to a sermon.,목사님의 설교였어요.,It was the pastor's sermon.,목사님은 용서의 중요성에 대한 감동적인 설교를 했습니다.,The pastor delivered a moving sermon on the importance of forgiveness.
+경로,route,경로를 찾았어요.,I found a route.,최단 경로를 선택했어요.,I chose the shortest route.,그들은 목적지에 도달하기 위한 가장 효율적인 경로를 계획했습니다.,They planned the most efficient route to reach their destination.
+목장,ranch,목장에서 일해요.,I work at a ranch.,큰 목장이에요.,It's a big ranch.,그는 텍사스에 넓은 목장을 소유하고 있습니다.,He owns a vast ranch in Texas.
+강우량,rainfall,강우량이 많아요.,The rainfall is high.,강우량이 부족해요.,There is a lack of rainfall.,지난달 강우량은 평년보다 훨씬 많았습니다.,Last month's rainfall was much higher than average.
+복권,lottery,복권에 당첨됐어요.,I won the lottery.,복권을 샀어요.,I bought a lottery ticket.,그녀는 복권에 당첨되어 인생이 바뀌었습니다.,She won the lottery, and her life changed.
+연속,sequence,연속된 사건이었어요.,It was a sequence of events.,순서를 지켰어요.,I followed the sequence.,그들은 일련의 논리적인 단계에 따라 작업을 수행했습니다.,They performed the task in a logical sequence of steps.
+필수품,necessity,물은 필수품이에요.,Water is a necessity.,필수품을 샀어요.,I bought necessities.,음식, 물, 그리고 피난처는 생존의 기본 필수품입니다.,Food, water, and shelter are basic necessities for survival.
+생산성,productivity,생산성이 증가했어요.,Productivity increased.,생산성을 높여야 해요.,We need to increase productivity.,새로운 기술은 회사의 생산성을 크게 향상시켰습니다.,The new technology significantly improved the company's productivity.
+구원,salvation,구원을 받았어요.,I received salvation.,영혼의 구원이에요.,It's the salvation of the soul.,많은 사람들은 종교에서 영혼의 구원을 찾습니다.,Many people find salvation for their souls in religion.
+낮잠,nap,낮잠을 잤어요.,I took a nap.,짧은 낮잠이었어요.,It was a short nap.,그녀는 오후에 짧은 낮잠을 자는 것을 좋아합니다.,She likes to take a short nap in the afternoon.
+먹이,prey,사자가 먹이를 잡았어요.,The lion caught its prey.,먹이를 찾고 있어요.,I am looking for prey.,독수리는 작은 설치류를 먹이로 삼습니다.,Eagles prey on small rodents.
+환불하다,refund,환불 받았어요.,I got a refund.,돈을 환불해 주세요.,Please refund my money.,그녀는 불량품에 대해 전액 환불을 받았습니다.,She received a full refund for the defective product.
+엎지르다,spill,물을 엎질렀어요.,I spilled water.,우유를 엎질렀어요.,I spilled milk.,그는 실수로 커피를 테이블에 엎질렀습니다.,He accidentally spilled coffee on the table.
+소수,minority,소수 의견이에요.,It's a minority opinion.,소수 민족이에요.,It's an ethnic minority.,그들은 소수 민족의 권리를 보호하기 위해 노력합니다.,They work to protect the rights of minority groups.
+보행자,pedestrian,보행자가 많아요.,There are many pedestrians.,보행자 도로예요.,It's a pedestrian road.,보행자들은 횡단보도를 이용해야 합니다.,Pedestrians must use the crosswalk.
+의사,physician,의사를 만났어요.,I met a physician.,유명한 의사예요.,He is a famous physician.,그녀는 가족 의사에게 정기 검진을 받았습니다.,She had a regular checkup with her family physician.
+서리,frost,서리가 내렸어요.,Frost appeared.,서리가 많아요.,There is a lot of frost.,아침에 창문에 서리가 맺혔습니다.,Frost formed on the windows in the morning.
+빙하,glacier,빙하를 봤어요.,I saw a glacier.,빙하가 녹고 있어요.,Glaciers are melting.,빙하는 수천 년 동안 천천히 움직입니다.,Glaciers move slowly over thousands of years.
+은하,galaxy,은하수를 봤어요.,I saw the Milky Way galaxy.,우리 은하계에 살아요.,We live in our galaxy.,우리 은하계에는 수십억 개의 별이 있습니다.,There are billions of stars in our galaxy.
+분자,molecule,물 분자를 봤어요.,I saw a water molecule.,분자는 작아요.,Molecules are small.,물은 수소와 산소 원자로 구성된 분자입니다.,Water is a molecule composed of hydrogen and oxygen atoms.
+머릿기사,headline,머릿기사를 읽었어요.,I read the headline.,큰 뉴스였어요.,It was a big headline.,그 뉴스는 모든 신문의 머릿기사를 장식했습니다.,The news made headlines in all newspapers.
+한가운데,midst,군중 한가운데에 있었어요.,I was in the midst of the crowd.,어려움 속에서.,In the midst of difficulties.,그녀는 혼란스러운 상황 한가운데에서도 침착함을 유지했습니다.,She remained calm in the midst of the chaotic situation.
+안내,guidance,안내를 받았어요.,I received guidance.,지도자의 안내가 필요해요.,I need the guidance of a leader.,그녀는 경험 많은 멘토로부터 귀중한 지도를 받았습니다.,She received valuable guidance from an experienced mentor.
+슬픔,grief,슬픔을 느꼈어요.,I felt grief.,깊은 슬픔이었어요.,It was deep grief.,그녀는 사랑하는 사람을 잃은 슬픔으로 고통받았습니다.,She suffered from grief after losing her loved one.
+탐욕,greed,탐욕은 나빠요.,Greed is bad.,탐욕스러운 사람이에요.,He is a greedy person.,탐욕은 종종 파괴적인 결과를 초래합니다.,Greed often leads to destructive consequences.
+서정시,lyric,서정시를 썼어요.,I wrote a lyric poem.,노래 가사가 좋아요.,The song lyrics are good.,그녀는 아름다운 가사를 가진 노래를 불렀습니다.,She sang a song with beautiful lyrics.
+얼룩,stain,얼룩이 생겼어요.,A stain appeared.,옷에 얼룩이 묻었어요.,I got a stain on my clothes.,그녀는 옷에서 커피 얼룩을 제거하려고 노력했습니다.,She tried to remove the coffee stain from her dress.
+대부금,loan,대부금을 받았어요.,I received a loan.,은행 대출이에요.,It's a bank loan.,그는 사업을 시작하기 위해 은행에서 대출을 받았습니다.,He took out a loan from the bank to start his business.
+배아,embryo,배아를 연구했어요.,I studied an embryo.,생명의 시작이에요.,It's the beginning of life.,과학자들은 인간 배아 발달을 연구합니다.,Scientists study human embryo development.
+태아,fetus,태아의 성장을 관찰했어요.,I observed the growth of the fetus.,태아는 자라고 있어요.,The fetus is growing.,초음파 검사를 통해 태아의 건강을 확인했습니다.,The ultrasound confirmed the health of the fetus.
+팔꿈치,elbow,팔꿈치가 아파요.,My elbow hurts.,팔꿈치를 부딪쳤어요.,I hit my elbow.,그는 팔꿈치로 문을 열었습니다.,He opened the door with his elbow.
+살,flesh,살이 부드러워요.,The flesh is soft.,살과 피가 있어요.,I have flesh and blood.,그는 과일의 부드러운 과육을 먹었습니다.,He ate the soft flesh of the fruit.
+섬유질,fiber,섬유질이 풍부한 음식을 먹었어요.,I ate fiber-rich food.,섬유질은 소화에 좋아요.,Fiber is good for digestion.,이 시리얼은 섬유질이 풍부하여 소화에 도움이 됩니다.,This cereal is rich in fiber, which aids digestion.
+세제,detergent,세제로 설거지했어요.,I washed dishes with detergent.,세탁 세제가 필요해요.,I need laundry detergent.,그녀는 세제를 사용하여 옷의 얼룩을 제거했습니다.,She used detergent to remove the stain from her clothes.
+축제,feast,축제를 즐겼어요.,I enjoyed the feast.,큰 잔치였어요.,It was a big feast.,그들은 추수 감사절에 큰 잔치를 벌였습니다.,They held a grand feast for Thanksgiving.
+탐험,expedition,탐험을 떠났어요.,I went on an expedition.,위험한 탐험이었어요.,It was a dangerous expedition.,그들은 미지의 땅을 탐험하기 위한 과학 탐험을 시작했습니다.,They embarked on a scientific expedition to explore unknown lands.
+예외,exception,예외가 있어요.,There is an exception.,예외는 규칙을 증명해요.,The exception proves the rule.,그녀는 모든 규칙에 예외가 있다고 주장했습니다.,She argued that there is an exception to every rule.
+부분,portion,한 부분을 먹었어요.,I ate a portion.,작은 부분이에요.,It's a small portion.,그는 저에게 케이크 한 조각을 주었습니다.,He gave me a portion of cake.
+위엄,dignity,위엄을 지켰어요.,He maintained his dignity.,위엄 있는 모습이었어요.,He had a dignified appearance.,그녀는 어려운 상황에서도 자신의 존엄성을 유지했습니다.,She maintained her dignity even in difficult circumstances.
+재정,finance,재정을 관리해요.,I manage my finances.,재정 문제가 있어요.,I have financial problems.,그는 회사의 재정을 책임지고 있습니다.,He is responsible for the company's finance.
+연습,drill,연습을 했어요.,I did a drill.,드릴로 구멍을 뚫었어요.,I drilled a hole with a drill.,소방 훈련은 비상 상황에 대비하는 데 필수적입니다.,Fire drills are essential for preparing for emergencies.
+나사,screw,나사를 조였어요.,I tightened the screw.,나사가 풀렸어요.,The screw came loose.,그는 드라이버로 나사를 돌렸습니다.,He turned the screw with a screwdriver.
+퍼내다,scoop,국자로 물을 퍼냈어요.,I scooped water with a scoop.,큰 국자예요.,It's a big scoop.,그녀는 아이스크림을 큰 국자로 퍼냈습니다.,She scooped out a large portion of ice cream.
+동료,colleague,동료와 일해요.,I work with my colleague.,좋은 동료예요.,He is a good colleague.,그녀는 새로운 프로젝트에서 동료들과 협력했습니다.,She collaborated with her colleagues on the new project.
+벽장,closet,벽장에 옷을 걸었어요.,I hung clothes in the closet.,벽장이 좁아요.,The closet is small.,그녀는 벽장에서 오래된 코트를 꺼냈습니다.,She pulled an old coat from the closet.
+비행기,aircraft,비행기를 탔어요.,I rode an aircraft.,군용 비행기예요.,It's a military aircraft.,그들은 새로운 유형의 항공기를 개발하고 있습니다.,They are developing a new type of aircraft.
+만,bay,만에 배가 있어요.,There is a ship in the bay.,아름다운 만이에요.,It's a beautiful bay.,그들은 잔잔한 만에서 보트를 타고 항해했습니다.,They sailed their boat in the calm 

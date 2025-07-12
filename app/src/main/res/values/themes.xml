@@ -13,4 +13,17 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <!-- Calendar View Style -->
+    <style name="CalendarViewStyle" parent="Theme.MaterialComponents.Light">
+        <item name="android:colorAccent">#4A90E2</item>
+        <item name="android:colorPrimary">#4A90E2</item>
+        <item name="android:colorPrimaryDark">#1976D2</item>
+        <item name="android:textColorPrimary">#2C3E50</item>
+        <item name="android:textColorSecondary">#7F8C8D</item>
+        <item name="android:colorBackground">#FFFFFF</item>
+        <item name="android:colorControlNormal">#BDBDBD</item>
+        <item name="android:colorControlActivated">#4A90E2</item>
+        <item name="android:colorControlHighlight">#E3F2FD</item>
+    </style>
 </resources>

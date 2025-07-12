@@ -21,6 +21,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SettingsActivity" />
+        <activity android:name=".CongratulationsActivity" />
+        <activity android:name=".CalendarActivity" />
     </application>
 
 </manifest>
