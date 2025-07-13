@@ -53,6 +53,19 @@
         android:backgroundTint="#FFEBEE"
         android:textColor="#C62828"
         app:strokeColor="#C62828"
+        app:strokeWidth="1dp"
+        android:layout_marginBottom="16dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnMenuDeveloper"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="🔧 개발자 모드"
+        android:textSize="16sp"
+        app:cornerRadius="16dp"
+        android:backgroundTint="#FFF3E0"
+        android:textColor="#E65100"
+        app:strokeColor="#E65100"
         app:strokeWidth="1dp" />
 
 </LinearLayout> 

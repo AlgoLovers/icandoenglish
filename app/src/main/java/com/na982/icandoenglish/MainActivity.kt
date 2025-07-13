@@ -21,6 +21,11 @@ import android.os.Looper
 import android.util.Log
 import com.google.gson.Gson
 import java.text.SimpleDateFormat
+import android.widget.EditText
+import android.widget.Button
+import android.app.AlertDialog
+import android.widget.Toast
+import java.util.Calendar
 
 // 데이터 클래스 정의
 data class WordEntry(
@@ -119,7 +124,34 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     }
 
     private fun getCurrentDate(): String {
-        return dateFormat.format(Date())
+        // 개발자 모드: 테스트용 날짜 조작
+        val testDate = getSharedPreferences("test_settings", Context.MODE_PRIVATE)
+            .getString("test_date", null)
+        
+        return if (testDate != null) {
+            Log.d("TestMode", "테스트 날짜 사용: $testDate")
+            testDate
+        } else {
+            dateFormat.format(Date())
+        }
+    }
+    
+    // 개발자 모드: 테스트용 날짜 설정
+    private fun setTestDate(date: String) {
+        getSharedPreferences("test_settings", Context.MODE_PRIVATE)
+            .edit()
+            .putString("test_date", date)
+            .apply()
+        Log.d("TestMode", "테스트 날짜 설정: $date")
+    }
+    
+    // 개발자 모드: 테스트용 날짜 초기화
+    private fun clearTestDate() {
+        getSharedPreferences("test_settings", Context.MODE_PRIVATE)
+            .edit()
+            .remove("test_date")
+            .apply()
+        Log.d("TestMode", "테스트 날짜 초기화")
     }
 
     // 신규 단어 배정
@@ -333,31 +365,27 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     
     // 초기화 확인 다이얼로그
     private fun showResetConfirmationDialog() {
+        val options = arrayOf("오늘 학습만 초기화", "전체 학습 기록 초기화")
+        
         androidx.appcompat.app.AlertDialog.Builder(this)
-            .setTitle("⚠️ 학습 기록 초기화")
-            .setMessage("모든 학습 기록이 삭제됩니다.\n정말 초기화하시겠습니까?")
-            .setPositiveButton("초기화") { _, _ ->
-                resetAllLearningData()
+            .setTitle("🔄 학습 기록 초기화")
+            .setMessage("어떤 초기화를 선택하시겠습니까?")
+            .setItems(options) { _, which ->
+                when (which) {
+                    0 -> resetTodayLearningData() // 오늘 학습만 초기화
+                    1 -> resetAllLearningData()   // 전체 초기화
+                }
             }
             .setNegativeButton("취소", null)
             .show()
     }
     
-    // 모든 학습 데이터 초기화
-    private fun resetAllLearningData() {
-        Log.d("ResetData", "=== 학습 데이터 초기화 시작 ===")
+    // 오늘 학습만 초기화
+    private fun resetTodayLearningData() {
+        Log.d("ResetData", "=== 오늘 학습 데이터 초기화 시작 ===")
         
         val today = getCurrentDate()
         Log.d("ResetData", "오늘 날짜: $today")
-        
-        // 어제 날짜 구하기
-        val cal = java.util.Calendar.getInstance()
-        cal.time = java.text.SimpleDateFormat("yyyy-MM-dd").parse(today)!!
-        cal.add(java.util.Calendar.DAY_OF_YEAR, -1)
-        val yesterday = java.text.SimpleDateFormat("yyyy-MM-dd").format(cal.time)
-        val dailyNewWordsPrefs = getSharedPreferences("daily_new_words", Context.MODE_PRIVATE)
-        dailyNewWordsPrefs.edit().putString("last_assigned_date_$currentGrade", yesterday).apply()
-        Log.d("ResetData", "last_assigned_date를 어제로 설정: $yesterday")
         
         // 초기화 전 상태 확인
         val beforeResetNewWords = allWords.count { word ->
@@ -371,32 +399,27 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         Log.d("ResetData", "초기화 전 - 오늘 배정된 단어: ${beforeResetNewWords}개")
         Log.d("ResetData", "초기화 전 - 암기 완료된 단어: ${beforeResetCompleted}개")
         
-        val memorizationPrefs = getSharedPreferences("memorization", Context.MODE_PRIVATE)
-        val studyDataPrefs = getSharedPreferences("study_data", Context.MODE_PRIVATE)
-        
-        Log.d("ResetData", "memorization SharedPreferences 초기화")
-        memorizationPrefs.edit().clear().apply()
-        Log.d("ResetData", "study_data SharedPreferences 초기화")
-        studyDataPrefs.edit().clear().apply()
-        
-        // word_learning_data에서 암기 기록만 삭제하고 배정 정보는 유지
-        Log.d("ResetData", "word_learning_data 선택적 초기화 시작")
-        // 오늘 날짜로 배정된 모든 단어의 배정 정보와 암기 기록 초기화
+        // 오늘 날짜로 배정된 모든 단어의 암기 기록만 초기화 (배정 정보는 유지)
         var resetCount = 0
         allWords.forEach { word ->
             val data = getWordLearningData(word.kor)
             if (data.dailyNewWordDate == today) {
                 val resetData = data.copy(
-                    dailyNewWordDate = null, // 배정 정보도 초기화!
                     memorizationCount = 0,
                     lastMemorizedDate = null,
                     nextReviewDate = null
+                    // dailyNewWordDate는 유지 (배정 정보 보존)
                 )
                 saveWordLearningData(resetData)
                 resetCount++
             }
         }
-        Log.d("ResetData", "오늘 날짜로 배정된 단어 초기화 수: $resetCount")
+        Log.d("ResetData", "오늘 배정된 단어 암기 기록 초기화 수: $resetCount")
+        
+        // 오늘의 학습 데이터만 초기화
+        val studyDataPrefs = getSharedPreferences("study_data", Context.MODE_PRIVATE)
+        studyDataPrefs.edit().remove("daily_data_$today").apply()
+        Log.d("ResetData", "오늘 학습 데이터 초기화 완료")
         
         // 초기화 후 상태 확인
         val afterResetNewWords = allWords.count { word ->
@@ -410,7 +433,39 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         Log.d("ResetData", "초기화 후 - 오늘 배정된 단어: ${afterResetNewWords}개")
         Log.d("ResetData", "초기화 후 - 암기 완료된 단어: ${afterResetCompleted}개")
         
-        Log.d("ResetData", "=== 학습 데이터 초기화 완료 ===")
+        Log.d("ResetData", "=== 오늘 학습 데이터 초기화 완료 ===")
+        
+        Toast.makeText(this, "오늘 학습 기록이 초기화되었습니다.", Toast.LENGTH_SHORT).show()
+        
+        // 단어 목록 새로고침
+        updateTodayWords()
+        updateProgress()
+    }
+
+    // 모든 학습 데이터 초기화
+    private fun resetAllLearningData() {
+        Log.d("ResetData", "=== 전체 학습 데이터 초기화 시작 ===")
+        
+        val today = getCurrentDate()
+        Log.d("ResetData", "오늘 날짜: $today")
+        
+        // 모든 SharedPreferences 초기화
+        val memorizationPrefs = getSharedPreferences("memorization", Context.MODE_PRIVATE)
+        val studyDataPrefs = getSharedPreferences("study_data", Context.MODE_PRIVATE)
+        val dailyNewWordsPrefs = getSharedPreferences("daily_new_words", Context.MODE_PRIVATE)
+        val wordLearningDataPrefs = getSharedPreferences("word_learning_data", Context.MODE_PRIVATE)
+        val testSettingsPrefs = getSharedPreferences("test_settings", Context.MODE_PRIVATE)
+        
+        Log.d("ResetData", "모든 SharedPreferences 초기화")
+        memorizationPrefs.edit().clear().apply()
+        studyDataPrefs.edit().clear().apply()
+        dailyNewWordsPrefs.edit().clear().apply()
+        wordLearningDataPrefs.edit().clear().apply()
+        testSettingsPrefs.edit().clear().apply()
+        
+        Log.d("ResetData", "=== 전체 학습 데이터 초기화 완료 ===")
+        
+        Toast.makeText(this, "모든 학습 기록이 초기화되었습니다.", Toast.LENGTH_SHORT).show()
         
         // 앱 재시작
         val intent = Intent(this, MainActivity::class.java)
@@ -675,6 +730,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         btnMenuCategory = findViewById(R.id.btnMenuCategory)
         btnMenuCalendar = findViewById(R.id.btnMenuCalendar)
         val btnMenuReset = findViewById<MaterialButton>(R.id.btnMenuReset)
+        val btnMenuDeveloper = findViewById<MaterialButton>(R.id.btnMenuDeveloper)
 
         tts = TextToSpeech(this, this)
 
@@ -705,6 +761,12 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
         btnMenuReset.setOnClickListener {
             toggleSideMenu()
             showResetConfirmationDialog()
+        }
+
+        // 개발자 모드 버튼 클릭 리스너
+        btnMenuDeveloper.setOnClickListener {
+            toggleSideMenu()
+            showDeveloperModeDialog()
         }
 
         // 암기 버튼 클릭 리스너
@@ -979,5 +1041,56 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
             e.printStackTrace()
         }
         return result
+    }
+
+    // 개발자 모드 다이얼로그 표시
+    private fun showDeveloperModeDialog() {
+        val dialogView = layoutInflater.inflate(R.layout.dialog_developer_mode, null)
+        val editTextDate = dialogView.findViewById<EditText>(R.id.editTextDate)
+        val btnSetDate = dialogView.findViewById<Button>(R.id.btnSetDate)
+        val btnClearDate = dialogView.findViewById<Button>(R.id.btnClearDate)
+        val btnTestReview = dialogView.findViewById<Button>(R.id.btnTestReview)
+        
+        // 현재 테스트 날짜 표시
+        val currentTestDate = getSharedPreferences("test_settings", Context.MODE_PRIVATE)
+            .getString("test_date", null)
+        editTextDate.setText(currentTestDate ?: getCurrentDate())
+        
+        val dialog = AlertDialog.Builder(this)
+            .setTitle("🔧 개발자 모드")
+            .setView(dialogView)
+            .setPositiveButton("닫기") { dialog, _ ->
+                dialog.dismiss()
+            }
+            .create()
+        
+        btnSetDate.setOnClickListener {
+            val date = editTextDate.text.toString()
+            if (date.isNotEmpty()) {
+                setTestDate(date)
+                Toast.makeText(this, "테스트 날짜 설정: $date", Toast.LENGTH_SHORT).show()
+                updateTodayWords() // 단어 목록 새로고침
+            }
+        }
+        
+        btnClearDate.setOnClickListener {
+            clearTestDate()
+            editTextDate.setText(getCurrentDate())
+            Toast.makeText(this, "테스트 날짜 초기화", Toast.LENGTH_SHORT).show()
+            updateTodayWords() // 단어 목록 새로고침
+        }
+        
+        btnTestReview.setOnClickListener {
+            // 복습 테스트: 3일 후 날짜로 설정
+            val calendar = Calendar.getInstance()
+            calendar.add(Calendar.DAY_OF_YEAR, 3)
+            val testDate = dateFormat.format(calendar.time)
+            setTestDate(testDate)
+            editTextDate.setText(testDate)
+            Toast.makeText(this, "복습 테스트 날짜 설정: $testDate", Toast.LENGTH_SHORT).show()
+            updateTodayWords() // 단어 목록 새로고침
+        }
+        
+        dialog.show()
     }
 }
