@@ -365,19 +365,33 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
     
     // 초기화 확인 다이얼로그
     private fun showResetConfirmationDialog() {
-        val options = arrayOf("오늘 학습만 초기화", "전체 학습 기록 초기화")
+        val dialogView = layoutInflater.inflate(R.layout.dialog_reset_options, null)
+        val btnResetToday = dialogView.findViewById<MaterialCardView>(R.id.btnResetToday)
+        val btnResetAll = dialogView.findViewById<MaterialCardView>(R.id.btnResetAll)
+        val btnCancel = dialogView.findViewById<MaterialButton>(R.id.btnCancel)
         
-        androidx.appcompat.app.AlertDialog.Builder(this)
-            .setTitle("🔄 학습 기록 초기화")
-            .setMessage("어떤 초기화를 선택하시겠습니까?")
-            .setItems(options) { _, which ->
-                when (which) {
-                    0 -> resetTodayLearningData() // 오늘 학습만 초기화
-                    1 -> resetAllLearningData()   // 전체 초기화
-                }
-            }
-            .setNegativeButton("취소", null)
-            .show()
+        val dialog = AlertDialog.Builder(this)
+            .setView(dialogView)
+            .create()
+        
+        // 배경 투명하게 설정
+        dialog.window?.setBackgroundDrawableResource(android.R.color.transparent)
+        
+        btnResetToday.setOnClickListener {
+            dialog.dismiss()
+            resetTodayLearningData()
+        }
+        
+        btnResetAll.setOnClickListener {
+            dialog.dismiss()
+            resetAllLearningData()
+        }
+        
+        btnCancel.setOnClickListener {
+            dialog.dismiss()
+        }
+        
+        dialog.show()
     }
     
     // 오늘 학습만 초기화
@@ -523,14 +537,20 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 }
                 attempts++
                 
-                // 현재 인덱스의 단어가 암기 완료되지 않았는지 확인
+                // 복습 모드에서는 모든 단어를 순환, 신규 모드에서는 암기 완료하지 않은 단어만
                 val currentWord = words.getOrNull(nextIndex)
                 if (currentWord != null) {
-                    val data = getWordLearningData(currentWord.kor)
-                    if (data.memorizationCount == 0) {
-                        // 암기 완료하지 않은 단어를 찾았음
+                    if (currentLearningMode == LearningMode.REVIEW_WORDS) {
+                        // 복습 모드: 모든 단어 순환
                         currentIndex = nextIndex
                         break
+                    } else {
+                        // 신규 모드: 암기 완료하지 않은 단어만
+                        val data = getWordLearningData(currentWord.kor)
+                        if (data.memorizationCount == 0) {
+                            currentIndex = nextIndex
+                            break
+                        }
                     }
                 }
             } while (attempts < maxAttempts && nextIndex != currentIndex)
@@ -570,14 +590,20 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
                 }
                 attempts++
                 
-                // 현재 인덱스의 단어가 암기 완료되지 않았는지 확인
+                // 복습 모드에서는 모든 단어를 순환, 신규 모드에서는 암기 완료하지 않은 단어만
                 val currentWord = words.getOrNull(prevIndex)
                 if (currentWord != null) {
-                    val data = getWordLearningData(currentWord.kor)
-                    if (data.memorizationCount == 0) {
-                        // 암기 완료하지 않은 단어를 찾았음
+                    if (currentLearningMode == LearningMode.REVIEW_WORDS) {
+                        // 복습 모드: 모든 단어 순환
                         currentIndex = prevIndex
                         break
+                    } else {
+                        // 신규 모드: 암기 완료하지 않은 단어만
+                        val data = getWordLearningData(currentWord.kor)
+                        if (data.memorizationCount == 0) {
+                            currentIndex = prevIndex
+                            break
+                        }
                     }
                 }
             } while (attempts < maxAttempts && prevIndex != currentIndex)
